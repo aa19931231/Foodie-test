@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <title>首頁</title>
+</head>
+
+<body>
+  <%- include('./layout/header'); -%>
+    <div class="banner">
+      <div class="container">
+        <div class="banner-title">
+          <h1 class="fs-1 fw-bold">現在想找好吃的！</h1>
+          <p class="fs-5 text-secondary">I Want Something Delicious Now！ </p>
+          <div class="d-flex gap-4 mt-4">
+            <div class="dropdown">
+              <button class="btn bg-white rounded-pill" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                <span class="material-symbols-outlined align-top me-2">
+                  location_on
+                </span>
+                不限地區
+                <span class="material-symbols-outlined align-bottom ms-2">
+                  keyboard_arrow_down
+                </span>
+              </button>
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                <li><a class="dropdown-item" href="#">北部</a></li>
+                <li><a class="dropdown-item" href="#">中部</a></li>
+                <li><a class="dropdown-item" href="#">南部</a></li>
+                <li><a class="dropdown-item" href="#">東部</a></li>
+              </ul>
+            </div>
+            <div class="dropdown">
+              <button class="btn bg-white rounded-pill" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                <span class="material-symbols-outlined align-top me-2">
+                  skillet
+                </span>
+                所有美食
+                <span class="material-symbols-outlined align-bottom ms-2">
+                  keyboard_arrow_down
+                </span>
+              </button>
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                <li><a class="dropdown-item" href="#">中式</a></li>
+                <li><a class="dropdown-item" href="#">日式</a></li>
+                <li><a class="dropdown-item" href="#">韓式</a></li>
+                <li><a class="dropdown-item" href="#">西式</a></li>
+                <li><a class="dropdown-item" href="#">美式</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="search">
+            <input class="search-bar" type="text" name="search" id="search" placeholder="輸入你想要搜尋的食物！">
+            <button class="search-btn2"><img src="/assets/images/searchIcon.png"
+                alt=""></button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="store">
+      <div class="container">
+        <h2 class="store-title text-center fs-1 fw-bold">這些店很熱門</h2>
+        <div class="store-card-group d-flex justify-content-between flex-wrap">
+          <div class="card border-0">
+            <img src="/assets/images/popular_store_1.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title fw-bold fs-5 p-1">貳樓 Secondfloor</h5>
+              <p class="card-text p-1">貳樓開幕以來座著名的就是全天候早午餐，即使假日睡到下午，仍然可以享受到豐富的早午餐選擇，無論是經典的或創新的料理都令人滿足。</p>
+              <div class="tag d-flex">
+                <p class="text-white">西式早午餐</p>
+                <p class="text-white">人氣聚集地</p>
+              </div>
+            </div>
+          </div>
+          <div class="card border-0">
+            <img src="/assets/images/popular_store_2.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title fw-bold fs-5 p-1">瓦城</h5>
+              <p class="card-text p-1">洋溢熱帶風情的泰式料理，是最搭冬天的美食！使用香料如香茅、青柠檬、辣椒，突顯獨特風味。</p>
+              <div class="tag d-flex mt-4">
+                <p class="text-white">泰式美饌</p>
+                <p class="text-white">人氣聚集地</p>
+              </div>
+            </div>
+          </div>
+          <div class="card border-0">
+            <img src="/assets/images/popular_store_3.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title fw-bold fs-5 p-1">響時天堂</h5>
+              <p class="card-text p-1">菜色豐富、爐烤現切牛排、焗烤生蠔、現煎天使紅蝦、牛小排，晚餐免費可享用最新限定的北海道</p>
+              <div class="tag d-flex mt-4">
+                <p class="text-white">人氣Buffet</p>
+                <p class="text-white">人氣聚集地</p>
+              </div>
+            </div>
+          </div>
+          <div class="card border-0">
+            <img src="/assets/images/popular_store_4.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title fw-bold fs-5 p-1">新富町</h5>
+              <p class="card-text p-1">古色古香的日式老宅，結合文青單車品牌，提供美味甜點和咖啡。招牌是使用日本直送的鮮奶製作的</p>
+              <div class="tag d-flex mt-4">
+                <p class="text-white">日式涮涮鍋</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <section class="category">
+      <button class="btn btn-link arrow left-arrow">
+        <img src="/assets/images/arrow_left.png" alt="">
+      </button>
+      <div class="container">
+        <h2 class="category-title text-center fs-1 fw-bold">今天想吃什麼?</h2>
+        <div class="category-card">
+          <div class="category-card-content">
+            <img src="/assets/images/type_1.png" alt="">
+            <span class="category-card-text">輕食早午餐</span>
+          </div>
+          <div class="category-card-content">
+            <img src="/assets/images/type_2.png" alt="">
+            <span class="category-card-text">人氣 Buffet</span>
+          </div>
+          <div class="category-card-content">
+            <img src="/assets/images/type_3.png" alt="">
+            <span class="category-card-text">元氣健身餐</span>
+          </div>
+          <div class="category-card-content">
+            <img src="/assets/images/type_4.png" alt="">
+            <span class="category-card-text">氣氛餐酒館</span>
+          </div>
+          <div class="category-card-content">
+            <img src="/assets/images/type_5.png" alt="">
+            <span class="category-card-text">五星級饗宴</span>
+          </div>
+          <div class="category-card-content">
+            <img src="/assets/images/type_6.png" alt="">
+            <span class="category-card-text">夯景點美食</span>
+          </div>
+          <div class="category-card-content">
+            <img src="/assets/images/type_7.png" alt="">
+            <span class="category-card-text">美味宵夜</span>
+          </div>
+          <div class="category-card-content">
+            <img src="/assets/images/type_8.png" alt="">
+            <span class="category-card-text">日式</span>
+          </div>
+        </div>
+        <div class="pagination-indicator">
+          <div class="dots-container">
+            <span class="dot active"></span>
+            <span class="dot"></span>
+          </div>
+          <button class="btn2">瞭解更多</button>
+        </div>
+      </div>
+      <button class="btn btn-link arrow right-arrow">
+        <img src="/assets/images/arrow_right.png" alt="">
+      </button>
+    </section>
+   
+    <div class="holiday">
+      <div class="container">
+        <div class="holiday-container">
+          <div class="holiday-title">
+            <h2 class="fs-1 fw-bold">假日怎麼玩？</h2>
+            <button class="btn2">瞭解更多</button>
+          </div>
+          <div>
+            <div class="holiday-item">
+              <img src="/assets/images/travel_1.png" alt="">
+              <div class="holiday-content">
+                <h3>花蓮景點必去清單</h3>
+                <p>花蓮景點除了花蓮太魯閣和花蓮七星潭，還有哪裡</br>好玩？整理 15 個花蓮景點推薦給你</p>
+              </div>
+            </div>
+            <div class="holiday-item">
+              <img src="/assets/images/travel_2.png" alt="">
+              <div class="holiday-content">
+                <h3>端午節連假旅遊攻略</h3>
+                <p>6/8(六) 至 6/10(一) 共 3 天連假，不想浪費今年最後</br>一個連假嗎？快參考本篇推薦端午連假旅遊攻略</p>
+              </div>
+            </div>
+          </div>
+          <button class="btn3">更多文章</button>
+        </div>
+      </div>
+    </div>
+    </div>
+    <div class="about">
+      <div class="container">
+        <div class="about-text">
+          <h2 class="text-white fs-1 fw-bold text-center mb-4">關於我們</h2>
+          <p class="text-white text-center fs-3">假日去探店、吃美食或是到處走走，但常常不知要去哪。</p>
+          <p class="text-white text-center fs-3">為了讓不知假日能去哪的吃貨們可以從中獲得靈感，</p>
+          <p class="text-white text-center fs-3">吃貨發現誕生了。</p>
+        </div>
+      </div>
+    </div>
+    <%- include('./layout/footer'); -%>
+
+      <script type="module" src="../main.js"></script>
+</body>
+
+</html>

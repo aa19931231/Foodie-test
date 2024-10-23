@@ -1,0 +1,27 @@
+.card{
+  width: 306px;
+  
+}
+.tag p{
+  background: #F08929;
+  padding: 4px 12px;
+  border-radius: 40px;
+  margin-right: 8px;
+}
+.navbar-nav{
+  font-size: 20px;
+  gap: 56px;
+  @include pad{
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    font-size: 20px;
+  }
+}
+.nav{
+  &-link:hover{
+    color: #B2751A;
+    font-weight: 700;
+    border-bottom: 2px solid #B2751A;
+  }
+}
