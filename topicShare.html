@@ -1,0 +1,1030 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>主題分享</title>
+  <script type="module" crossorigin src="/Foodie-test/assets/main-4d3009ae.js"></script>
+  <link rel="stylesheet" href="/Foodie-test/assets/main-3d4318d8.css">
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+    <div class="container container-fluid">
+        <a class="navbar-brand" href="index.html"><img src="data:image/png;base64,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" alt=""></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+            aria-controls="offcanvasNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+                <a href="#"><img src="data:image/png;base64,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" alt=""></a>
+                <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                    aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                    <li class="nav-item">
+                        <a class="nav-link" href="popularRestaurants.html">這些店很熱門</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">今天想吃什麼？</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="topicShare.html">主題分享</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">假日怎麼玩？</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">註冊與登入</a>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </div>
+</nav>
+  
+    <div class="main-banner-topic  container-fluid">
+      <!-- <picture class="">
+    <source media="(min-width: 992px)" srcset="../assets/images/restaurant-cover.png">
+    <img class="w-100" src="../assets/images/popular_banner_mb.jpg" alt="">
+     </picture> -->
+      <div class="container bannerTitle text-white">
+        <h1 class="">主題分享</h1>
+        <p class="">小編美食主題筆記大公開</p>
+      </div>
+    </div>
+
+
+    <!-- 內容開始 -->
+    <div class="container popular-store-block">
+      <div class="row">
+
+        <!-- 左側篩選器＿桌機版 -->
+        <div class="col-lg-2 filter-lg-none">
+
+          <div class="list-group-city left-section-width">
+
+            <ul>
+              <li>
+                <h5 class="titleCity">北部區域</h5>
+                <label class="city">
+                  <input class="form-check-input" type="checkbox" value="">
+                  臺北市
+                </label>
+
+                <label class="city">
+                  <input class="form-check-input" type="checkbox" value="">
+                  新北市
+                </label>
+
+                <label class="city">
+                  <input class="form-check-input" type="checkbox" value="">
+                  基隆市
+                </label>
+
+                <label class="city">
+                  <input class="form-check-input" type="checkbox" value="">
+                  新竹市
+                </label>
+
+                <label class="city">
+                  <input class="form-check-input" type="checkbox" value="">
+                  桃園市
+                </label>
+
+                <label class="city">
+                  <input class="form-check-input" type="checkbox" value="">
+                  新竹縣
+                </label>
+
+                <label class="city">
+                  <input class="form-check-input" type="checkbox" value="">
+                  宜蘭縣
+                </label>
+              </li>
+
+              <li>
+                <h5 class="titleCity">中部區域</h5>
+                <label class="city">
+                  <input class="form-check-input" type="checkbox" value="">
+                  臺中市
+                </label>
+
+                <label class="city">
+                  <input class="form-check-input" type="checkbox" value="">
+                  苗栗縣
+                </label>
+
+                <label class="city">
+                  <input class="form-check-input" type="checkbox" value="">
+                  彰化縣
+                </label>
+
+                <label class="city">
+                  <input class="form-check-input" type="checkbox" value="">
+                  南投縣
+                </label>
+
+                <label class="city">
+                  <input class="form-check-input" type="checkbox" value="">
+                  雲林縣
+                </label>
+              </li>
+
+              <li>
+                <h5 class="titleCity">南部區域</h5>
+                <label class="city">
+                  <input class="form-check-input" type="checkbox" value="">
+                  高雄市
+                </label>
+
+                <label class="city">
+                  <input class="form-check-input" type="checkbox" value="">
+                  臺南市
+                </label>
+
+                <label class="city">
+                  <input class="form-check-input" type="checkbox" value="">
+                  嘉義市
+                </label>
+
+                <label class="city">
+                  <input class="form-check-input" type="checkbox" value="">
+                  嘉義縣
+                </label>
+
+                <label class="city">
+                  <input class="form-check-input" type="checkbox" value="">
+                  屏東縣
+                </label>
+
+                <label class="city">
+                  <input class="form-check-input" type="checkbox" value="">
+                  澎湖縣
+                </label>
+              </li>
+
+              <li>
+                <h5 class="titleCity">東部區域</h5>
+
+                <label class="city">
+                  <input class="form-check-input" type="checkbox" value="">
+                  花蓮縣
+                </label>
+
+                <label class="city">
+                  <input class="form-check-input" type="checkbox" value="">
+                  臺東縣
+                </label>
+              </li>
+            </ul>
+
+          </div>
+
+        </div>
+
+
+        <!-- 右側result -->
+        <div class="col-12 col-lg-10 right-section-width">
+
+
+          <div class="d-flex align-items-center position-relative m-lg-5 m-0">
+            <!-- 篩選器手機版出現按鈕 -->
+            <span class="filter pt-1 pb-1">
+              <a href="#" data-bs-toggle="modal" data-bs-target="#filterModal">
+                <img src="/Foodie-test/assets/filterIcon-98d56932.svg" alt="filter">
+              </a>
+            </span>
+
+            <input class="form-control input-group-text" type="text" placeholder="今天想吃什麼？" id="search">
+            <button type="button" class="search-btn position-absolute top-50 translate-middle-y">
+              <img src="data:image/png;base64,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" alt="">
+            </button>
+          </div>
+
+
+          <!-- 篩選器手機版_視窗開始 -->
+
+          <!-- Button trigger modal -->
+          <!-- <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#filterModal">
+            Launch demo modal
+          </button> -->
+
+          <!-- Modal -->
+          <div class="modal fade" id="filterModal" tabindex="-1" aria-labelledby="filterModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="filtereModalLabel">各縣市熱門餐廳</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <div class="list-group-city">
+
+                    <ul>
+                      <li>
+                        <h5 class="titleCity">北部區域</h5>
+                        <label class="city">
+                          <input class="form-check-input" type="checkbox" value="">
+                          臺北市
+                        </label>
+
+                        <label class="city">
+                          <input class="form-check-input" type="checkbox" value="">
+                          新北市
+                        </label>
+
+                        <label class="city">
+                          <input class="form-check-input" type="checkbox" value="">
+                          基隆市
+                        </label>
+
+                        <label class="city">
+                          <input class="form-check-input" type="checkbox" value="">
+                          新竹市
+                        </label>
+
+                        <label class="city">
+                          <input class="form-check-input" type="checkbox" value="">
+                          桃園市
+                        </label>
+
+                        <label class="city">
+                          <input class="form-check-input" type="checkbox" value="">
+                          新竹縣
+                        </label>
+
+                        <label class="city">
+                          <input class="form-check-input" type="checkbox" value="">
+                          宜蘭縣
+                        </label>
+                      </li>
+                      <li>
+                        <h5 class="titleCity">中部區域</h5>
+                        <label class="city">
+                          <input class="form-check-input" type="checkbox" value="">
+                          臺中市
+                        </label>
+
+                        <label class="city">
+                          <input class="form-check-input" type="checkbox" value="">
+                          苗栗縣
+                        </label>
+
+                        <label class="city">
+                          <input class="form-check-input" type="checkbox" value="">
+                          彰化縣
+                        </label>
+
+                        <label class="city">
+                          <input class="form-check-input" type="checkbox" value="">
+                          南投縣
+                        </label>
+
+                        <label class="city">
+                          <input class="form-check-input" type="checkbox" value="">
+                          雲林縣
+                        </label>
+                      </li>
+                      <li>
+                        <h5 class="titleCity">南部區域</h5>
+                        <label class="city">
+                          <input class="form-check-input" type="checkbox" value="">
+                          高雄市
+                        </label>
+
+                        <label class="city">
+                          <input class="form-check-input" type="checkbox" value="">
+                          臺南市
+                        </label>
+
+                        <label class="city">
+                          <input class="form-check-input" type="checkbox" value="">
+                          嘉義市
+                        </label>
+
+                        <label class="city">
+                          <input class="form-check-input" type="checkbox" value="">
+                          嘉義縣
+                        </label>
+
+                        <label class="city">
+                          <input class="form-check-input" type="checkbox" value="">
+                          屏東縣
+                        </label>
+
+                        <label class="city">
+                          <input class="form-check-input" type="checkbox" value="">
+                          澎湖縣
+                        </label>
+                      </li>
+                      <li>
+                        <h5 class="titleCity">東部區域</h5>
+
+                        <label class="city">
+                          <input class="form-check-input" type="checkbox" value="">
+                          花蓮縣
+                        </label>
+
+                        <label class="city">
+                          <input class="form-check-input" type="checkbox" value="">
+                          臺東縣
+                        </label>
+                      </li>
+                    </ul>
+
+                  </div>
+                </div>
+                <!-- <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                </div> -->
+              </div>
+            </div>
+          </div>
+
+          <!-- 餐廳卡片開始 -->
+          <div class="row">
+
+            
+            <!-- 第1家餐廳 -->
+            <div class="col-12 col-sm-6 card-store">
+
+              <div class="row">
+                <div class="col-md-12 col-lg-5 food-card-link px-w " onclick="window.open('topic01.html', '_blank')">
+                  <img src="/Foodie-test/assets/topic_store_1-5e097bd3.jpg" class="img-food scale-hover" alt="...">
+                  <!-- '_top' -->
+                </div>
+
+                <div class="col-md-12 col-lg-7 px-w">
+                  <div class="card-body">
+
+                    <div class="card-top d-flex justify-content-between">
+                      <h4 class="restaurant-title">2024 高雄美食 30 家推薦必吃</h4>
+                      <span class="collectIcon">
+                        <button type="button" class="collectBgicon" href="#">
+                          <svg version="1.1" id="collectsvgIcon" xmlns="http://www.w3.org/2000/svg"
+                            xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 30 30"
+                            style="enable-background:new 0 0 30 30;" xml:space="preserve">
+                            <circle class="circlest0" cx="15" cy="15" r="15" />
+                            <path class="starst1"
+                              d="M10.7,17.3L9.2,24l5.8-3.5l5.8,3.5l-1.6-6.6l5.2-4.5l-6.8-0.6L15,6l-2.7,6.3l-6.8,0.6L10.7,17.3z" />
+                          </svg>
+                        </button>
+                      </span>
+                    </div>
+                    <p class="card-text fs-6 fs-md-5">
+                      <span class="detailIcon">
+                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAJJSURBVHgB7VZLUsJAEO3AAcwRcgQ9geEEcgP1BOIOq/hMYMNOPIFwA9i5I+zciScwRwhLF4DvwVCFOMlMgJ28qq6GpNP9ZqY/I3LGf4dXxFgp5ZdKpYfVahV6nhfgUaBfpXg2w7vRYrEYwy5xdOlGAA4DBHyFhDrYEMG+oOdrJ553sVwur6CvNakB/kcuRKwEut0uV6wgCeQRTuM8+06ncwfVhviQqNVq9eVQAnBGRwz+0m63a1IAURQp7Mj6e5CIsuzKWS+4cqgegkcIXpeCiIEwZKp4qlKpzCeTybvJzrgDPHOc8YdeuZIMcLsRYNVsNodZNtiJPmxumSOmnCiZPiJrqDQvOMFqgArzbHh0zB8msen9HwI642+xA4XOPA9MXlYQy9hKAIGrUEmj0RjLiaArJwWJmpUA2N5AxXJiwC8XdC02AmB5CfUpJwb8znT3zCcgmwaSiiOwMt/RlD4DcSDgDK4Kqqob1kEwEUhkswtWsM2yUeGnciBh3FlTErLnB+II9goXErC55MS0EgCm7ANSAC4kOCkhYysBOOL08lG7oRxO4le96wkZoB2PrAQQmPM+BttnKYgtCQSK919BBqZZkDuM+BES7VGOgD6SWtYwMo5jTNIUI/SbXKAFo3QqhwdXkCfszpvJJvM+wPm9M88Lk0BwHmFd3yd6WXbWK5lOKK6Ew0TlzX6Cycv80W33uCvZjlOOaKXLM4EwSWe7l1LWOX5ykvpMYsj9SS6l+0TK5fINEqqqh9a2Y7J5JdBTljErSc44wxE/uspKZ/aF6c8AAAAASUVORK5CYII=" alt="營業時間">
+                      </span>
+                      10:00–22:00
+                    </p>
+                    <p>
+                      <span class="detailIcon">
+                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAJOSURBVHgB7VY7UsMwEJUdDuAbYG4AJ4hzArgBuQFwgMR20kBFcoIkHaWpGCo7HVSEG7ikdDqaJLw3UWY8GUmW3JI3o5Fs7eetvNq1ECf8d3guwkmSBJ1O53a320V4vMQI5VaJsfI8LxsMBgvhAGsCcB75vj/DMsDI4GwFIuvtdluB1LkkdUMyePcA+czGrhWB0WgUkwOcTDFgO6k0JEMQSzBu+TgcDtMm240ExuPxHZxOMNI4jhNhgTRNSYKkH0BiItoSYEQ49i9Gbuu8RmLCk8DnuIKdUifnm4zwODFVrs4J6NxTFzbuTXJNBK4libaY8hR4e3QCZ7oNZj2mYLPZLDX7/DwxbwJzRHXMOP4MMs9if2ULlR3tCUAxxFTpvh/2c0x9RHgn1yqS1K2kLbUf3QaiCqmsMcy9sPYqlO9UqKQtNwKIjM4DDYFS7KvfAaUh0wNpy40Avt+KyrrIsN+ThWnKtVATpW4gbSmhTUKASrxGfdpSGC8xma+Y70din0eFVka3wXKL6BayrLYFq6GxJxjrAK8XphC9wBipCtDpUxfHb+wHjb2gVlIvdE3oGLJG5AjgVVZELfwmY+x+Yn+XZ8ISh+opdY3oNAkURfHb7Xa/YfSx1+ut8zz/MMmzdbP+82aYmpA1AUmipHMsn0FmyWeVHMs3nM/ZurF+sbFtRYBg5FEUeaztIPEOEj9Hzi+x9wbnTy7d0+mfkEBSztkl5RGvas4PSdd3sedM4JgEn9s6b02gRoJFqmrrnLDOgWMgBzLmBJafTXf9hBNM+APntz0xqnnXCgAAAABJRU5ErkJggg==" alt="餐廳地點">
+                      </span>
+                      30 家推薦必吃：傳奇烤鴨、米其林蒸蛋湯、燒烤吃到飽、北港蔡三代同仔米糕
+                    </p>
+                    <a class="foodTag btn-pimary-style text-white mt-3" href="#">西式早午餐
+                    </a>
+
+                  </div>
+                </div>
+
+              </div>
+
+            </div>
+
+            <!-- 第2家餐廳 -->
+            <div class="col-12 col-sm-6  card-store">
+
+              <div class="row">
+                <div class="col-md-12 col-lg-5 food-card-link px-w" onclick="window.open('topic01.html', '_blank')">
+                  <img src="/Foodie-test/assets/topic_store_2-216a487e.jpg" class="img-food scale-hover" alt="...">
+                </div>
+
+                <div class="col-md-12 col-lg-7  px-w">
+                  <div class="card-body">
+                    <div class="card-top d-flex justify-content-between">
+                      <h4 class="restaurant-title">台北 10 間咖啡廳推薦</h4>
+
+                      <span class="collectIcon">
+                        <button type="button" class="collectBgicon" href="#">
+                          <svg version="1.1" id="collectsvgIcon" xmlns="http://www.w3.org/2000/svg"
+                            xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 30 30"
+                            style="enable-background:new 0 0 30 30;" xml:space="preserve">
+                            <circle class="circlest0" cx="15" cy="15" r="15" />
+                            <path class="starst1"
+                              d="M10.7,17.3L9.2,24l5.8-3.5l5.8,3.5l-1.6-6.6l5.2-4.5l-6.8-0.6L15,6l-2.7,6.3l-6.8,0.6L10.7,17.3z" />
+                          </svg>
+                        </button>
+                      </span>
+
+                    </div>
+
+                    <p class="card-text fs-6 fs-md-5">
+                      <span class="detailIcon">
+                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAJJSURBVHgB7VZLUsJAEO3AAcwRcgQ9geEEcgP1BOIOq/hMYMNOPIFwA9i5I+zciScwRwhLF4DvwVCFOMlMgJ28qq6GpNP9ZqY/I3LGf4dXxFgp5ZdKpYfVahV6nhfgUaBfpXg2w7vRYrEYwy5xdOlGAA4DBHyFhDrYEMG+oOdrJ553sVwur6CvNakB/kcuRKwEut0uV6wgCeQRTuM8+06ncwfVhviQqNVq9eVQAnBGRwz+0m63a1IAURQp7Mj6e5CIsuzKWS+4cqgegkcIXpeCiIEwZKp4qlKpzCeTybvJzrgDPHOc8YdeuZIMcLsRYNVsNodZNtiJPmxumSOmnCiZPiJrqDQvOMFqgArzbHh0zB8msen9HwI642+xA4XOPA9MXlYQy9hKAIGrUEmj0RjLiaArJwWJmpUA2N5AxXJiwC8XdC02AmB5CfUpJwb8znT3zCcgmwaSiiOwMt/RlD4DcSDgDK4Kqqob1kEwEUhkswtWsM2yUeGnciBh3FlTErLnB+II9goXErC55MS0EgCm7ANSAC4kOCkhYysBOOL08lG7oRxO4le96wkZoB2PrAQQmPM+BttnKYgtCQSK919BBqZZkDuM+BES7VGOgD6SWtYwMo5jTNIUI/SbXKAFo3QqhwdXkCfszpvJJvM+wPm9M88Lk0BwHmFd3yd6WXbWK5lOKK6Ew0TlzX6Cycv80W33uCvZjlOOaKXLM4EwSWe7l1LWOX5ykvpMYsj9SS6l+0TK5fINEqqqh9a2Y7J5JdBTljErSc44wxE/uspKZ/aF6c8AAAAASUVORK5CYII=" alt="營業時間">
+                      </span>
+                      11:00~22:00
+                    </p>
+                    <p>
+                      <span class="detailIcon">
+                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAJOSURBVHgB7VY7UsMwEJUdDuAbYG4AJ4hzArgBuQFwgMR20kBFcoIkHaWpGCo7HVSEG7ikdDqaJLw3UWY8GUmW3JI3o5Fs7eetvNq1ECf8d3guwkmSBJ1O53a320V4vMQI5VaJsfI8LxsMBgvhAGsCcB75vj/DMsDI4GwFIuvtdluB1LkkdUMyePcA+czGrhWB0WgUkwOcTDFgO6k0JEMQSzBu+TgcDtMm240ExuPxHZxOMNI4jhNhgTRNSYKkH0BiItoSYEQ49i9Gbuu8RmLCk8DnuIKdUifnm4zwODFVrs4J6NxTFzbuTXJNBK4libaY8hR4e3QCZ7oNZj2mYLPZLDX7/DwxbwJzRHXMOP4MMs9if2ULlR3tCUAxxFTpvh/2c0x9RHgn1yqS1K2kLbUf3QaiCqmsMcy9sPYqlO9UqKQtNwKIjM4DDYFS7KvfAaUh0wNpy40Avt+KyrrIsN+ThWnKtVATpW4gbSmhTUKASrxGfdpSGC8xma+Y70din0eFVka3wXKL6BayrLYFq6GxJxjrAK8XphC9wBipCtDpUxfHb+wHjb2gVlIvdE3oGLJG5AjgVVZELfwmY+x+Yn+XZ8ISh+opdY3oNAkURfHb7Xa/YfSx1+ut8zz/MMmzdbP+82aYmpA1AUmipHMsn0FmyWeVHMs3nM/ZurF+sbFtRYBg5FEUeaztIPEOEj9Hzi+x9wbnTy7d0+mfkEBSztkl5RGvas4PSdd3sedM4JgEn9s6b02gRoJFqmrrnLDOgWMgBzLmBJafTXf9hBNM+APntz0xqnnXCgAAAABJRU5ErkJggg==" alt="餐廳地點">
+                      </span>
+                      精選 10 間台北夜貓族最愛咖啡館
+                    </p>
+
+                    <a class="foodTag btn-pimary-style text-white mt-3" href="#">午餐
+                    </a>
+                    <a class="foodTag btn-pimary-style text-white mt-3" href="#">泰式
+                    </a>
+
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+            <hr class="hr-line">
+
+            <!-- 第3家餐廳 -->
+            <div class="col-12 col-sm-6  card-store">
+
+              <div class="row">
+                <div class="col-md-12 col-lg-5 food-card-link px-w " onclick="window.open('topic01.html', '_blank')">
+                  <img src="/Foodie-test/assets/topic_store_3-4d3bd420.jpg" class="img-food scale-hover" alt="...">
+                </div>
+
+                <div class="col-md-12 col-lg-7 px-w">
+                  <div class="card-body">
+                    <div class="card-top d-flex justify-content-between">
+                      <h4 class="restaurant-title">個旅秋冬溫泉季</h4>
+
+                      <span class="collectIcon">
+                        <button type="button" class="collectBgicon" href="#">
+                          <svg version="1.1" id="collectsvgIcon" xmlns="http://www.w3.org/2000/svg"
+                            xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 30 30"
+                            style="enable-background:new 0 0 30 30;" xml:space="preserve">
+                            <circle class="circlest0" cx="15" cy="15" r="15" />
+                            <path class="starst1"
+                              d="M10.7,17.3L9.2,24l5.8-3.5l5.8,3.5l-1.6-6.6l5.2-4.5l-6.8-0.6L15,6l-2.7,6.3l-6.8,0.6L10.7,17.3z" />
+                          </svg>
+                        </button>
+                      </span>
+
+                    </div>
+
+                    <p class="card-text fs-6 fs-md-5">
+                      <span class="detailIcon">
+                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAJJSURBVHgB7VZLUsJAEO3AAcwRcgQ9geEEcgP1BOIOq/hMYMNOPIFwA9i5I+zciScwRwhLF4DvwVCFOMlMgJ28qq6GpNP9ZqY/I3LGf4dXxFgp5ZdKpYfVahV6nhfgUaBfpXg2w7vRYrEYwy5xdOlGAA4DBHyFhDrYEMG+oOdrJ553sVwur6CvNakB/kcuRKwEut0uV6wgCeQRTuM8+06ncwfVhviQqNVq9eVQAnBGRwz+0m63a1IAURQp7Mj6e5CIsuzKWS+4cqgegkcIXpeCiIEwZKp4qlKpzCeTybvJzrgDPHOc8YdeuZIMcLsRYNVsNodZNtiJPmxumSOmnCiZPiJrqDQvOMFqgArzbHh0zB8msen9HwI642+xA4XOPA9MXlYQy9hKAIGrUEmj0RjLiaArJwWJmpUA2N5AxXJiwC8XdC02AmB5CfUpJwb8znT3zCcgmwaSiiOwMt/RlD4DcSDgDK4Kqqob1kEwEUhkswtWsM2yUeGnciBh3FlTErLnB+II9goXErC55MS0EgCm7ANSAC4kOCkhYysBOOL08lG7oRxO4le96wkZoB2PrAQQmPM+BttnKYgtCQSK919BBqZZkDuM+BES7VGOgD6SWtYwMo5jTNIUI/SbXKAFo3QqhwdXkCfszpvJJvM+wPm9M88Lk0BwHmFd3yd6WXbWK5lOKK6Ew0TlzX6Cycv80W33uCvZjlOOaKXLM4EwSWe7l1LWOX5ykvpMYsj9SS6l+0TK5fINEqqqh9a2Y7J5JdBTljErSc44wxE/uspKZ/aF6c8AAAAASUVORK5CYII=" alt="營業時間">
+                      </span>
+                      11:00~22:00
+                    </p>
+                    <p>
+                      <span class="detailIcon">
+                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAJOSURBVHgB7VY7UsMwEJUdDuAbYG4AJ4hzArgBuQFwgMR20kBFcoIkHaWpGCo7HVSEG7ikdDqaJLw3UWY8GUmW3JI3o5Fs7eetvNq1ECf8d3guwkmSBJ1O53a320V4vMQI5VaJsfI8LxsMBgvhAGsCcB75vj/DMsDI4GwFIuvtdluB1LkkdUMyePcA+czGrhWB0WgUkwOcTDFgO6k0JEMQSzBu+TgcDtMm240ExuPxHZxOMNI4jhNhgTRNSYKkH0BiItoSYEQ49i9Gbuu8RmLCk8DnuIKdUifnm4zwODFVrs4J6NxTFzbuTXJNBK4libaY8hR4e3QCZ7oNZj2mYLPZLDX7/DwxbwJzRHXMOP4MMs9if2ULlR3tCUAxxFTpvh/2c0x9RHgn1yqS1K2kLbUf3QaiCqmsMcy9sPYqlO9UqKQtNwKIjM4DDYFS7KvfAaUh0wNpy40Avt+KyrrIsN+ThWnKtVATpW4gbSmhTUKASrxGfdpSGC8xma+Y70din0eFVka3wXKL6BayrLYFq6GxJxjrAK8XphC9wBipCtDpUxfHb+wHjb2gVlIvdE3oGLJG5AjgVVZELfwmY+x+Yn+XZ8ISh+opdY3oNAkURfHb7Xa/YfSx1+ut8zz/MMmzdbP+82aYmpA1AUmipHMsn0FmyWeVHMs3nM/ZurF+sbFtRYBg5FEUeaztIPEOEj9Hzi+x9wbnTy7d0+mfkEBSztkl5RGvas4PSdd3sedM4JgEn9s6b02gRoJFqmrrnLDOgWMgBzLmBJafTXf9hBNM+APntz0xqnnXCgAAAABJRU5ErkJggg==" alt="餐廳地點">
+                      </span>
+                      太平山森見晴懷古步道、鳩之澤溫泉DIY煮蛋趣一日
+                    </p>
+
+                    <a class="foodTag btn-pimary-style text-white mt-3" href="#">人氣聚集地
+                    </a>
+                    <a class="foodTag btn-pimary-style text-white mt-3" href="#">人氣Buffet
+                    </a>
+
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+            <!-- 第4家餐廳 -->
+            <div class="col-12 col-sm-6  card-store">
+
+              <div class="row">
+                <div class="col-md-12 col-lg-5 food-card-link px-w " onclick="window.open('topic01.html', '_blank')">
+                  <img src="/Foodie-test/assets/topic_store_4-d0079cb2.jpg" class="img-food scale-hover" alt="...">
+                </div>
+
+                <div class="col-md-12 col-lg-7 px-w">
+                  <div class="card-body">
+                    <div class="card-top d-flex justify-content-between">
+                      <h4 class="restaurant-title">故宮尋寶及黃金山城九份經典行程一日遊</h4>
+
+                      <span class="collectIcon">
+                        <button type="button" class="collectBgicon" href="#">
+                          <svg version="1.1" id="collectsvgIcon" xmlns="http://www.w3.org/2000/svg"
+                            xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 30 30"
+                            style="enable-background:new 0 0 30 30;" xml:space="preserve">
+                            <circle class="circlest0" cx="15" cy="15" r="15" />
+                            <path class="starst1"
+                              d="M10.7,17.3L9.2,24l5.8-3.5l5.8,3.5l-1.6-6.6l5.2-4.5l-6.8-0.6L15,6l-2.7,6.3l-6.8,0.6L10.7,17.3z" />
+                          </svg>
+                        </button>
+                      </span>
+
+                    </div>
+
+                    <p class="card-text fs-6 fs-md-5">
+                      <span class="detailIcon">
+                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAJJSURBVHgB7VZLUsJAEO3AAcwRcgQ9geEEcgP1BOIOq/hMYMNOPIFwA9i5I+zciScwRwhLF4DvwVCFOMlMgJ28qq6GpNP9ZqY/I3LGf4dXxFgp5ZdKpYfVahV6nhfgUaBfpXg2w7vRYrEYwy5xdOlGAA4DBHyFhDrYEMG+oOdrJ553sVwur6CvNakB/kcuRKwEut0uV6wgCeQRTuM8+06ncwfVhviQqNVq9eVQAnBGRwz+0m63a1IAURQp7Mj6e5CIsuzKWS+4cqgegkcIXpeCiIEwZKp4qlKpzCeTybvJzrgDPHOc8YdeuZIMcLsRYNVsNodZNtiJPmxumSOmnCiZPiJrqDQvOMFqgArzbHh0zB8msen9HwI642+xA4XOPA9MXlYQy9hKAIGrUEmj0RjLiaArJwWJmpUA2N5AxXJiwC8XdC02AmB5CfUpJwb8znT3zCcgmwaSiiOwMt/RlD4DcSDgDK4Kqqob1kEwEUhkswtWsM2yUeGnciBh3FlTErLnB+II9goXErC55MS0EgCm7ANSAC4kOCkhYysBOOL08lG7oRxO4le96wkZoB2PrAQQmPM+BttnKYgtCQSK919BBqZZkDuM+BES7VGOgD6SWtYwMo5jTNIUI/SbXKAFo3QqhwdXkCfszpvJJvM+wPm9M88Lk0BwHmFd3yd6WXbWK5lOKK6Ew0TlzX6Cycv80W33uCvZjlOOaKXLM4EwSWe7l1LWOX5ykvpMYsj9SS6l+0TK5fINEqqqh9a2Y7J5JdBTljErSc44wxE/uspKZ/aF6c8AAAAASUVORK5CYII=" alt="營業時間">
+                      </span>
+                      11:00~22:00
+                    </p>
+                    <p>
+                      <span class="detailIcon">
+                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAJOSURBVHgB7VY7UsMwEJUdDuAbYG4AJ4hzArgBuQFwgMR20kBFcoIkHaWpGCo7HVSEG7ikdDqaJLw3UWY8GUmW3JI3o5Fs7eetvNq1ECf8d3guwkmSBJ1O53a320V4vMQI5VaJsfI8LxsMBgvhAGsCcB75vj/DMsDI4GwFIuvtdluB1LkkdUMyePcA+czGrhWB0WgUkwOcTDFgO6k0JEMQSzBu+TgcDtMm240ExuPxHZxOMNI4jhNhgTRNSYKkH0BiItoSYEQ49i9Gbuu8RmLCk8DnuIKdUifnm4zwODFVrs4J6NxTFzbuTXJNBK4libaY8hR4e3QCZ7oNZj2mYLPZLDX7/DwxbwJzRHXMOP4MMs9if2ULlR3tCUAxxFTpvh/2c0x9RHgn1yqS1K2kLbUf3QaiCqmsMcy9sPYqlO9UqKQtNwKIjM4DDYFS7KvfAaUh0wNpy40Avt+KyrrIsN+ThWnKtVATpW4gbSmhTUKASrxGfdpSGC8xma+Y70din0eFVka3wXKL6BayrLYFq6GxJxjrAK8XphC9wBipCtDpUxfHb+wHjb2gVlIvdE3oGLJG5AjgVVZELfwmY+x+Yn+XZ8ISh+opdY3oNAkURfHb7Xa/YfSx1+ut8zz/MMmzdbP+82aYmpA1AUmipHMsn0FmyWeVHMs3nM/ZurF+sbFtRYBg5FEUeaztIPEOEj9Hzi+x9wbnTy7d0+mfkEBSztkl5RGvas4PSdd3sedM4JgEn9s6b02gRoJFqmrrnLDOgWMgBzLmBJafTXf9hBNM+APntz0xqnnXCgAAAABJRU5ErkJggg==" alt="餐廳地點">
+                      </span>
+                      精選4個旅程必去美食打卡地
+                    </p>
+                    <a class="foodTag btn-pimary-style text-white mt-3" href="#">日式涮涮鍋
+                    </a>
+
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+            <hr class="hr-line">
+
+
+            <!-- 第1家餐廳 -->
+            <div class="col-12 col-sm-6  card-store">
+
+              <div class="row">
+                <div class="col-md-12 col-lg-5 food-card-link px-w " onclick="window.open('topic01.html', '_blank')">
+                  <img src="/Foodie-test/assets/topic_store_1-5e097bd3.jpg" class="img-food scale-hover" alt="...">
+                  <!-- '_top' -->
+                </div>
+
+                <div class="col-md-12 col-lg-7 px-w">
+                  <div class="card-body">
+
+                    <div class="card-top d-flex justify-content-between">
+                      <h4 class="restaurant-title">2024 高雄美食 30 家推薦必吃</h4>
+                      <span class="collectIcon">
+                        <button type="button" class="collectBgicon" href="#">
+                          <svg version="1.1" id="collectsvgIcon" xmlns="http://www.w3.org/2000/svg"
+                            xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 30 30"
+                            style="enable-background:new 0 0 30 30;" xml:space="preserve">
+                            <circle class="circlest0" cx="15" cy="15" r="15" />
+                            <path class="starst1"
+                              d="M10.7,17.3L9.2,24l5.8-3.5l5.8,3.5l-1.6-6.6l5.2-4.5l-6.8-0.6L15,6l-2.7,6.3l-6.8,0.6L10.7,17.3z" />
+                          </svg>
+                        </button>
+                      </span>
+                    </div>
+                    <p class="card-text fs-6 fs-md-5">
+                      <span class="detailIcon">
+                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAJJSURBVHgB7VZLUsJAEO3AAcwRcgQ9geEEcgP1BOIOq/hMYMNOPIFwA9i5I+zciScwRwhLF4DvwVCFOMlMgJ28qq6GpNP9ZqY/I3LGf4dXxFgp5ZdKpYfVahV6nhfgUaBfpXg2w7vRYrEYwy5xdOlGAA4DBHyFhDrYEMG+oOdrJ553sVwur6CvNakB/kcuRKwEut0uV6wgCeQRTuM8+06ncwfVhviQqNVq9eVQAnBGRwz+0m63a1IAURQp7Mj6e5CIsuzKWS+4cqgegkcIXpeCiIEwZKp4qlKpzCeTybvJzrgDPHOc8YdeuZIMcLsRYNVsNodZNtiJPmxumSOmnCiZPiJrqDQvOMFqgArzbHh0zB8msen9HwI642+xA4XOPA9MXlYQy9hKAIGrUEmj0RjLiaArJwWJmpUA2N5AxXJiwC8XdC02AmB5CfUpJwb8znT3zCcgmwaSiiOwMt/RlD4DcSDgDK4Kqqob1kEwEUhkswtWsM2yUeGnciBh3FlTErLnB+II9goXErC55MS0EgCm7ANSAC4kOCkhYysBOOL08lG7oRxO4le96wkZoB2PrAQQmPM+BttnKYgtCQSK919BBqZZkDuM+BES7VGOgD6SWtYwMo5jTNIUI/SbXKAFo3QqhwdXkCfszpvJJvM+wPm9M88Lk0BwHmFd3yd6WXbWK5lOKK6Ew0TlzX6Cycv80W33uCvZjlOOaKXLM4EwSWe7l1LWOX5ykvpMYsj9SS6l+0TK5fINEqqqh9a2Y7J5JdBTljErSc44wxE/uspKZ/aF6c8AAAAASUVORK5CYII=" alt="營業時間">
+                      </span>
+                      10:00–22:00
+                    </p>
+                    <p>
+                      <span class="detailIcon">
+                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAJOSURBVHgB7VY7UsMwEJUdDuAbYG4AJ4hzArgBuQFwgMR20kBFcoIkHaWpGCo7HVSEG7ikdDqaJLw3UWY8GUmW3JI3o5Fs7eetvNq1ECf8d3guwkmSBJ1O53a320V4vMQI5VaJsfI8LxsMBgvhAGsCcB75vj/DMsDI4GwFIuvtdluB1LkkdUMyePcA+czGrhWB0WgUkwOcTDFgO6k0JEMQSzBu+TgcDtMm240ExuPxHZxOMNI4jhNhgTRNSYKkH0BiItoSYEQ49i9Gbuu8RmLCk8DnuIKdUifnm4zwODFVrs4J6NxTFzbuTXJNBK4libaY8hR4e3QCZ7oNZj2mYLPZLDX7/DwxbwJzRHXMOP4MMs9if2ULlR3tCUAxxFTpvh/2c0x9RHgn1yqS1K2kLbUf3QaiCqmsMcy9sPYqlO9UqKQtNwKIjM4DDYFS7KvfAaUh0wNpy40Avt+KyrrIsN+ThWnKtVATpW4gbSmhTUKASrxGfdpSGC8xma+Y70din0eFVka3wXKL6BayrLYFq6GxJxjrAK8XphC9wBipCtDpUxfHb+wHjb2gVlIvdE3oGLJG5AjgVVZELfwmY+x+Yn+XZ8ISh+opdY3oNAkURfHb7Xa/YfSx1+ut8zz/MMmzdbP+82aYmpA1AUmipHMsn0FmyWeVHMs3nM/ZurF+sbFtRYBg5FEUeaztIPEOEj9Hzi+x9wbnTy7d0+mfkEBSztkl5RGvas4PSdd3sedM4JgEn9s6b02gRoJFqmrrnLDOgWMgBzLmBJafTXf9hBNM+APntz0xqnnXCgAAAABJRU5ErkJggg==" alt="餐廳地點">
+                      </span>
+                      30 家推薦必吃：傳奇烤鴨、米其林蒸蛋湯、燒烤吃到飽、北港蔡三代同仔米糕
+                    </p>
+                    <a class="foodTag btn-pimary-style text-white mt-3" href="#">西式早午餐
+                    </a>
+
+                  </div>
+                </div>
+
+              </div>
+
+            </div>
+
+            <!-- 第2家餐廳 -->
+            <div class="col-12 col-sm-6  card-store">
+
+              <div class="row">
+                <div class="col-md-12 col-lg-5 food-card-link px-w " onclick="window.open('topic01.html', '_blank')">
+                  <img src="/Foodie-test/assets/topic_store_2-216a487e.jpg" class="img-food scale-hover" alt="...">
+                </div>
+
+                <div class="col-md-12 col-lg-7 px-w">
+                  <div class="card-body">
+                    <div class="card-top d-flex justify-content-between">
+                      <h4 class="restaurant-title">台北 10 間咖啡廳推薦</h4>
+
+                      <span class="collectIcon">
+                        <button type="button" class="collectBgicon" href="#">
+                          <svg version="1.1" id="collectsvgIcon" xmlns="http://www.w3.org/2000/svg"
+                            xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 30 30"
+                            style="enable-background:new 0 0 30 30;" xml:space="preserve">
+                            <circle class="circlest0" cx="15" cy="15" r="15" />
+                            <path class="starst1"
+                              d="M10.7,17.3L9.2,24l5.8-3.5l5.8,3.5l-1.6-6.6l5.2-4.5l-6.8-0.6L15,6l-2.7,6.3l-6.8,0.6L10.7,17.3z" />
+                          </svg>
+                        </button>
+                      </span>
+
+                    </div>
+
+                    <p class="card-text fs-6 fs-md-5">
+                      <span class="detailIcon">
+                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAJJSURBVHgB7VZLUsJAEO3AAcwRcgQ9geEEcgP1BOIOq/hMYMNOPIFwA9i5I+zciScwRwhLF4DvwVCFOMlMgJ28qq6GpNP9ZqY/I3LGf4dXxFgp5ZdKpYfVahV6nhfgUaBfpXg2w7vRYrEYwy5xdOlGAA4DBHyFhDrYEMG+oOdrJ553sVwur6CvNakB/kcuRKwEut0uV6wgCeQRTuM8+06ncwfVhviQqNVq9eVQAnBGRwz+0m63a1IAURQp7Mj6e5CIsuzKWS+4cqgegkcIXpeCiIEwZKp4qlKpzCeTybvJzrgDPHOc8YdeuZIMcLsRYNVsNodZNtiJPmxumSOmnCiZPiJrqDQvOMFqgArzbHh0zB8msen9HwI642+xA4XOPA9MXlYQy9hKAIGrUEmj0RjLiaArJwWJmpUA2N5AxXJiwC8XdC02AmB5CfUpJwb8znT3zCcgmwaSiiOwMt/RlD4DcSDgDK4Kqqob1kEwEUhkswtWsM2yUeGnciBh3FlTErLnB+II9goXErC55MS0EgCm7ANSAC4kOCkhYysBOOL08lG7oRxO4le96wkZoB2PrAQQmPM+BttnKYgtCQSK919BBqZZkDuM+BES7VGOgD6SWtYwMo5jTNIUI/SbXKAFo3QqhwdXkCfszpvJJvM+wPm9M88Lk0BwHmFd3yd6WXbWK5lOKK6Ew0TlzX6Cycv80W33uCvZjlOOaKXLM4EwSWe7l1LWOX5ykvpMYsj9SS6l+0TK5fINEqqqh9a2Y7J5JdBTljErSc44wxE/uspKZ/aF6c8AAAAASUVORK5CYII=" alt="營業時間">
+                      </span>
+                      11:00~22:00
+                    </p>
+                    <p>
+                      <span class="detailIcon">
+                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAJOSURBVHgB7VY7UsMwEJUdDuAbYG4AJ4hzArgBuQFwgMR20kBFcoIkHaWpGCo7HVSEG7ikdDqaJLw3UWY8GUmW3JI3o5Fs7eetvNq1ECf8d3guwkmSBJ1O53a320V4vMQI5VaJsfI8LxsMBgvhAGsCcB75vj/DMsDI4GwFIuvtdluB1LkkdUMyePcA+czGrhWB0WgUkwOcTDFgO6k0JEMQSzBu+TgcDtMm240ExuPxHZxOMNI4jhNhgTRNSYKkH0BiItoSYEQ49i9Gbuu8RmLCk8DnuIKdUifnm4zwODFVrs4J6NxTFzbuTXJNBK4libaY8hR4e3QCZ7oNZj2mYLPZLDX7/DwxbwJzRHXMOP4MMs9if2ULlR3tCUAxxFTpvh/2c0x9RHgn1yqS1K2kLbUf3QaiCqmsMcy9sPYqlO9UqKQtNwKIjM4DDYFS7KvfAaUh0wNpy40Avt+KyrrIsN+ThWnKtVATpW4gbSmhTUKASrxGfdpSGC8xma+Y70din0eFVka3wXKL6BayrLYFq6GxJxjrAK8XphC9wBipCtDpUxfHb+wHjb2gVlIvdE3oGLJG5AjgVVZELfwmY+x+Yn+XZ8ISh+opdY3oNAkURfHb7Xa/YfSx1+ut8zz/MMmzdbP+82aYmpA1AUmipHMsn0FmyWeVHMs3nM/ZurF+sbFtRYBg5FEUeaztIPEOEj9Hzi+x9wbnTy7d0+mfkEBSztkl5RGvas4PSdd3sedM4JgEn9s6b02gRoJFqmrrnLDOgWMgBzLmBJafTXf9hBNM+APntz0xqnnXCgAAAABJRU5ErkJggg==" alt="餐廳地點">
+                      </span>
+                      精選 10 間台北夜貓族最愛咖啡館
+                    </p>
+
+                    <a class="foodTag btn-pimary-style text-white mt-3" href="#">午餐
+                    </a>
+                    <a class="foodTag btn-pimary-style text-white mt-3" href="#">泰式
+                    </a>
+
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+            <hr class="hr-line">
+
+            <!-- 第3家餐廳 -->
+            <div class="col-12 col-sm-6  card-store">
+
+              <div class="row">
+                <div class="col-md-12 col-lg-5 food-card-link px-w " onclick="window.open('topic01.html', '_blank')">
+                  <img src="/Foodie-test/assets/topic_store_3-4d3bd420.jpg" class="img-food scale-hover" alt="...">
+                </div>
+                
+
+                <div class="col-md-12 col-lg-7 px-w">
+                  <div class="card-body">
+                    <div class="card-top d-flex justify-content-between">
+                      <h4 class="restaurant-title">個旅秋冬溫泉季</h4>
+
+                      <span class="collectIcon">
+                        <button type="button" class="collectBgicon" href="#">
+                          <svg version="1.1" id="collectsvgIcon" xmlns="http://www.w3.org/2000/svg"
+                            xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 30 30"
+                            style="enable-background:new 0 0 30 30;" xml:space="preserve">
+                            <circle class="circlest0" cx="15" cy="15" r="15" />
+                            <path class="starst1"
+                              d="M10.7,17.3L9.2,24l5.8-3.5l5.8,3.5l-1.6-6.6l5.2-4.5l-6.8-0.6L15,6l-2.7,6.3l-6.8,0.6L10.7,17.3z" />
+                          </svg>
+                        </button>
+                      </span>
+
+                    </div>
+
+                    <p class="card-text fs-6 fs-md-5">
+                      <span class="detailIcon">
+                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAJJSURBVHgB7VZLUsJAEO3AAcwRcgQ9geEEcgP1BOIOq/hMYMNOPIFwA9i5I+zciScwRwhLF4DvwVCFOMlMgJ28qq6GpNP9ZqY/I3LGf4dXxFgp5ZdKpYfVahV6nhfgUaBfpXg2w7vRYrEYwy5xdOlGAA4DBHyFhDrYEMG+oOdrJ553sVwur6CvNakB/kcuRKwEut0uV6wgCeQRTuM8+06ncwfVhviQqNVq9eVQAnBGRwz+0m63a1IAURQp7Mj6e5CIsuzKWS+4cqgegkcIXpeCiIEwZKp4qlKpzCeTybvJzrgDPHOc8YdeuZIMcLsRYNVsNodZNtiJPmxumSOmnCiZPiJrqDQvOMFqgArzbHh0zB8msen9HwI642+xA4XOPA9MXlYQy9hKAIGrUEmj0RjLiaArJwWJmpUA2N5AxXJiwC8XdC02AmB5CfUpJwb8znT3zCcgmwaSiiOwMt/RlD4DcSDgDK4Kqqob1kEwEUhkswtWsM2yUeGnciBh3FlTErLnB+II9goXErC55MS0EgCm7ANSAC4kOCkhYysBOOL08lG7oRxO4le96wkZoB2PrAQQmPM+BttnKYgtCQSK919BBqZZkDuM+BES7VGOgD6SWtYwMo5jTNIUI/SbXKAFo3QqhwdXkCfszpvJJvM+wPm9M88Lk0BwHmFd3yd6WXbWK5lOKK6Ew0TlzX6Cycv80W33uCvZjlOOaKXLM4EwSWe7l1LWOX5ykvpMYsj9SS6l+0TK5fINEqqqh9a2Y7J5JdBTljErSc44wxE/uspKZ/aF6c8AAAAASUVORK5CYII=" alt="營業時間">
+                      </span>
+                      11:00~22:00
+                    </p>
+                    <p>
+                      <span class="detailIcon">
+                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAJOSURBVHgB7VY7UsMwEJUdDuAbYG4AJ4hzArgBuQFwgMR20kBFcoIkHaWpGCo7HVSEG7ikdDqaJLw3UWY8GUmW3JI3o5Fs7eetvNq1ECf8d3guwkmSBJ1O53a320V4vMQI5VaJsfI8LxsMBgvhAGsCcB75vj/DMsDI4GwFIuvtdluB1LkkdUMyePcA+czGrhWB0WgUkwOcTDFgO6k0JEMQSzBu+TgcDtMm240ExuPxHZxOMNI4jhNhgTRNSYKkH0BiItoSYEQ49i9Gbuu8RmLCk8DnuIKdUifnm4zwODFVrs4J6NxTFzbuTXJNBK4libaY8hR4e3QCZ7oNZj2mYLPZLDX7/DwxbwJzRHXMOP4MMs9if2ULlR3tCUAxxFTpvh/2c0x9RHgn1yqS1K2kLbUf3QaiCqmsMcy9sPYqlO9UqKQtNwKIjM4DDYFS7KvfAaUh0wNpy40Avt+KyrrIsN+ThWnKtVATpW4gbSmhTUKASrxGfdpSGC8xma+Y70din0eFVka3wXKL6BayrLYFq6GxJxjrAK8XphC9wBipCtDpUxfHb+wHjb2gVlIvdE3oGLJG5AjgVVZELfwmY+x+Yn+XZ8ISh+opdY3oNAkURfHb7Xa/YfSx1+ut8zz/MMmzdbP+82aYmpA1AUmipHMsn0FmyWeVHMs3nM/ZurF+sbFtRYBg5FEUeaztIPEOEj9Hzi+x9wbnTy7d0+mfkEBSztkl5RGvas4PSdd3sedM4JgEn9s6b02gRoJFqmrrnLDOgWMgBzLmBJafTXf9hBNM+APntz0xqnnXCgAAAABJRU5ErkJggg==" alt="餐廳地點">
+                      </span>
+                      太平山森見晴懷古步道、鳩之澤溫泉DIY煮蛋趣一日
+                    </p>
+
+                    <a class="foodTag btn-pimary-style text-white mt-3" href="#">人氣聚集地
+                    </a>
+                    <a class="foodTag btn-pimary-style text-white mt-3" href="#">人氣Buffet
+                    </a>
+
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+            <!-- 第4家餐廳 -->
+            <div class="col-12 col-sm-6  card-store">
+
+              <div class="row">
+                <div class="col-md-12 col-lg-5 food-card-link px-w " onclick="window.open('topic01.html', '_blank')">
+                  <img src="/Foodie-test/assets/topic_store_4-d0079cb2.jpg" class="img-food scale-hover" alt="...">
+                </div>
+                
+
+                <div class="col-md-12 col-lg-7 px-w">
+                  <div class="card-body">
+                    <div class="card-top d-flex justify-content-between">
+                      <h4 class="restaurant-title">故宮尋寶及黃金山城九份一日遊</h4>
+
+                      <span class="collectIcon">
+                        <button type="button" class="collectBgicon" href="#">
+                          <svg version="1.1" id="collectsvgIcon" xmlns="http://www.w3.org/2000/svg"
+                            xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 30 30"
+                            style="enable-background:new 0 0 30 30;" xml:space="preserve">
+                            <circle class="circlest0" cx="15" cy="15" r="15" />
+                            <path class="starst1"
+                              d="M10.7,17.3L9.2,24l5.8-3.5l5.8,3.5l-1.6-6.6l5.2-4.5l-6.8-0.6L15,6l-2.7,6.3l-6.8,0.6L10.7,17.3z" />
+                          </svg>
+                        </button>
+                      </span>
+
+                    </div>
+
+                    <p class="card-text fs-6 fs-md-5">
+                      <span class="detailIcon">
+                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAJJSURBVHgB7VZLUsJAEO3AAcwRcgQ9geEEcgP1BOIOq/hMYMNOPIFwA9i5I+zciScwRwhLF4DvwVCFOMlMgJ28qq6GpNP9ZqY/I3LGf4dXxFgp5ZdKpYfVahV6nhfgUaBfpXg2w7vRYrEYwy5xdOlGAA4DBHyFhDrYEMG+oOdrJ553sVwur6CvNakB/kcuRKwEut0uV6wgCeQRTuM8+06ncwfVhviQqNVq9eVQAnBGRwz+0m63a1IAURQp7Mj6e5CIsuzKWS+4cqgegkcIXpeCiIEwZKp4qlKpzCeTybvJzrgDPHOc8YdeuZIMcLsRYNVsNodZNtiJPmxumSOmnCiZPiJrqDQvOMFqgArzbHh0zB8msen9HwI642+xA4XOPA9MXlYQy9hKAIGrUEmj0RjLiaArJwWJmpUA2N5AxXJiwC8XdC02AmB5CfUpJwb8znT3zCcgmwaSiiOwMt/RlD4DcSDgDK4Kqqob1kEwEUhkswtWsM2yUeGnciBh3FlTErLnB+II9goXErC55MS0EgCm7ANSAC4kOCkhYysBOOL08lG7oRxO4le96wkZoB2PrAQQmPM+BttnKYgtCQSK919BBqZZkDuM+BES7VGOgD6SWtYwMo5jTNIUI/SbXKAFo3QqhwdXkCfszpvJJvM+wPm9M88Lk0BwHmFd3yd6WXbWK5lOKK6Ew0TlzX6Cycv80W33uCvZjlOOaKXLM4EwSWe7l1LWOX5ykvpMYsj9SS6l+0TK5fINEqqqh9a2Y7J5JdBTljErSc44wxE/uspKZ/aF6c8AAAAASUVORK5CYII=" alt="營業時間">
+                      </span>
+                      11:00~22:00
+                    </p>
+                    <p>
+                      <span class="detailIcon">
+                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAJOSURBVHgB7VY7UsMwEJUdDuAbYG4AJ4hzArgBuQFwgMR20kBFcoIkHaWpGCo7HVSEG7ikdDqaJLw3UWY8GUmW3JI3o5Fs7eetvNq1ECf8d3guwkmSBJ1O53a320V4vMQI5VaJsfI8LxsMBgvhAGsCcB75vj/DMsDI4GwFIuvtdluB1LkkdUMyePcA+czGrhWB0WgUkwOcTDFgO6k0JEMQSzBu+TgcDtMm240ExuPxHZxOMNI4jhNhgTRNSYKkH0BiItoSYEQ49i9Gbuu8RmLCk8DnuIKdUifnm4zwODFVrs4J6NxTFzbuTXJNBK4libaY8hR4e3QCZ7oNZj2mYLPZLDX7/DwxbwJzRHXMOP4MMs9if2ULlR3tCUAxxFTpvh/2c0x9RHgn1yqS1K2kLbUf3QaiCqmsMcy9sPYqlO9UqKQtNwKIjM4DDYFS7KvfAaUh0wNpy40Avt+KyrrIsN+ThWnKtVATpW4gbSmhTUKASrxGfdpSGC8xma+Y70din0eFVka3wXKL6BayrLYFq6GxJxjrAK8XphC9wBipCtDpUxfHb+wHjb2gVlIvdE3oGLJG5AjgVVZELfwmY+x+Yn+XZ8ISh+opdY3oNAkURfHb7Xa/YfSx1+ut8zz/MMmzdbP+82aYmpA1AUmipHMsn0FmyWeVHMs3nM/ZurF+sbFtRYBg5FEUeaztIPEOEj9Hzi+x9wbnTy7d0+mfkEBSztkl5RGvas4PSdd3sedM4JgEn9s6b02gRoJFqmrrnLDOgWMgBzLmBJafTXf9hBNM+APntz0xqnnXCgAAAABJRU5ErkJggg==" alt="餐廳地點">
+                      </span>
+                      精選4個旅程必去美食打卡地
+                    </p>
+                    <a class="foodTag btn-pimary-style text-white mt-3" href="#">日式涮涮鍋
+                    </a>
+
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+            <hr class="hr-line">
+
+
+            <!-- 第1家餐廳 -->
+            <div class="col-12 col-sm-6  card-store">
+
+              <div class="row">
+                <div class="col-md-12 col-lg-5 food-card-link px-w " onclick="window.open('topic01.html', '_blank')">
+                  <img src="/Foodie-test/assets/topic_store_1-5e097bd3.jpg" class="img-food scale-hover" alt="...">
+                  <!-- '_top' -->
+                </div>
+
+                <div class="col-md-12 col-lg-7 px-w">
+                  <div class="card-body">
+
+                    <div class="card-top d-flex justify-content-between">
+                      <h4 class="restaurant-title">2024 高雄美食 30 家推薦必吃</h4>
+                      <span class="collectIcon">
+                        <button type="button" class="collectBgicon" href="#">
+                          <svg version="1.1" id="collectsvgIcon" xmlns="http://www.w3.org/2000/svg"
+                            xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 30 30"
+                            style="enable-background:new 0 0 30 30;" xml:space="preserve">
+                            <circle class="circlest0" cx="15" cy="15" r="15" />
+                            <path class="starst1"
+                              d="M10.7,17.3L9.2,24l5.8-3.5l5.8,3.5l-1.6-6.6l5.2-4.5l-6.8-0.6L15,6l-2.7,6.3l-6.8,0.6L10.7,17.3z" />
+                          </svg>
+                        </button>
+                      </span>
+                    </div>
+                    <p class="card-text fs-6 fs-md-5">
+                      <span class="detailIcon">
+                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAJJSURBVHgB7VZLUsJAEO3AAcwRcgQ9geEEcgP1BOIOq/hMYMNOPIFwA9i5I+zciScwRwhLF4DvwVCFOMlMgJ28qq6GpNP9ZqY/I3LGf4dXxFgp5ZdKpYfVahV6nhfgUaBfpXg2w7vRYrEYwy5xdOlGAA4DBHyFhDrYEMG+oOdrJ553sVwur6CvNakB/kcuRKwEut0uV6wgCeQRTuM8+06ncwfVhviQqNVq9eVQAnBGRwz+0m63a1IAURQp7Mj6e5CIsuzKWS+4cqgegkcIXpeCiIEwZKp4qlKpzCeTybvJzrgDPHOc8YdeuZIMcLsRYNVsNodZNtiJPmxumSOmnCiZPiJrqDQvOMFqgArzbHh0zB8msen9HwI642+xA4XOPA9MXlYQy9hKAIGrUEmj0RjLiaArJwWJmpUA2N5AxXJiwC8XdC02AmB5CfUpJwb8znT3zCcgmwaSiiOwMt/RlD4DcSDgDK4Kqqob1kEwEUhkswtWsM2yUeGnciBh3FlTErLnB+II9goXErC55MS0EgCm7ANSAC4kOCkhYysBOOL08lG7oRxO4le96wkZoB2PrAQQmPM+BttnKYgtCQSK919BBqZZkDuM+BES7VGOgD6SWtYwMo5jTNIUI/SbXKAFo3QqhwdXkCfszpvJJvM+wPm9M88Lk0BwHmFd3yd6WXbWK5lOKK6Ew0TlzX6Cycv80W33uCvZjlOOaKXLM4EwSWe7l1LWOX5ykvpMYsj9SS6l+0TK5fINEqqqh9a2Y7J5JdBTljErSc44wxE/uspKZ/aF6c8AAAAASUVORK5CYII=" alt="營業時間">
+                      </span>
+                      10:00–22:00
+                    </p>
+                    <p>
+                      <span class="detailIcon">
+                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAJOSURBVHgB7VY7UsMwEJUdDuAbYG4AJ4hzArgBuQFwgMR20kBFcoIkHaWpGCo7HVSEG7ikdDqaJLw3UWY8GUmW3JI3o5Fs7eetvNq1ECf8d3guwkmSBJ1O53a320V4vMQI5VaJsfI8LxsMBgvhAGsCcB75vj/DMsDI4GwFIuvtdluB1LkkdUMyePcA+czGrhWB0WgUkwOcTDFgO6k0JEMQSzBu+TgcDtMm240ExuPxHZxOMNI4jhNhgTRNSYKkH0BiItoSYEQ49i9Gbuu8RmLCk8DnuIKdUifnm4zwODFVrs4J6NxTFzbuTXJNBK4libaY8hR4e3QCZ7oNZj2mYLPZLDX7/DwxbwJzRHXMOP4MMs9if2ULlR3tCUAxxFTpvh/2c0x9RHgn1yqS1K2kLbUf3QaiCqmsMcy9sPYqlO9UqKQtNwKIjM4DDYFS7KvfAaUh0wNpy40Avt+KyrrIsN+ThWnKtVATpW4gbSmhTUKASrxGfdpSGC8xma+Y70din0eFVka3wXKL6BayrLYFq6GxJxjrAK8XphC9wBipCtDpUxfHb+wHjb2gVlIvdE3oGLJG5AjgVVZELfwmY+x+Yn+XZ8ISh+opdY3oNAkURfHb7Xa/YfSx1+ut8zz/MMmzdbP+82aYmpA1AUmipHMsn0FmyWeVHMs3nM/ZurF+sbFtRYBg5FEUeaztIPEOEj9Hzi+x9wbnTy7d0+mfkEBSztkl5RGvas4PSdd3sedM4JgEn9s6b02gRoJFqmrrnLDOgWMgBzLmBJafTXf9hBNM+APntz0xqnnXCgAAAABJRU5ErkJggg==" alt="餐廳地點">
+                      </span>
+                      30 家推薦必吃：傳奇烤鴨、米其林蒸蛋湯、燒烤吃到飽、北港蔡三代同仔米糕
+                    </p>
+                    <a class="foodTag btn-pimary-style text-white mt-3" href="#">西式早午餐
+                    </a>
+
+                  </div>
+                </div>
+
+              </div>
+
+            </div>
+
+            <!-- 第2家餐廳 -->
+            <div class="col-12 col-sm-6  card-store">
+
+              <div class="row">
+                <div class="col-md-12 col-lg-5 food-card-link px-w " onclick="window.open('topic01.html', '_blank')">
+                  <img src="/Foodie-test/assets/topic_store_2-216a487e.jpg" class="img-food scale-hover" alt="...">
+                </div>
+
+                <div class="col-md-12 col-lg-7 px-w">
+                  <div class="card-body">
+                    <div class="card-top d-flex justify-content-between">
+                      <h4 class="restaurant-title">台北 10 間咖啡廳推薦</h4>
+
+                      <span class="collectIcon">
+                        <button type="button" class="collectBgicon" href="#">
+                          <svg version="1.1" id="collectsvgIcon" xmlns="http://www.w3.org/2000/svg"
+                            xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 30 30"
+                            style="enable-background:new 0 0 30 30;" xml:space="preserve">
+                            <circle class="circlest0" cx="15" cy="15" r="15" />
+                            <path class="starst1"
+                              d="M10.7,17.3L9.2,24l5.8-3.5l5.8,3.5l-1.6-6.6l5.2-4.5l-6.8-0.6L15,6l-2.7,6.3l-6.8,0.6L10.7,17.3z" />
+                          </svg>
+                        </button>
+                      </span>
+
+                    </div>
+
+                    <p class="card-text fs-6 fs-md-5">
+                      <span class="detailIcon">
+                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAJJSURBVHgB7VZLUsJAEO3AAcwRcgQ9geEEcgP1BOIOq/hMYMNOPIFwA9i5I+zciScwRwhLF4DvwVCFOMlMgJ28qq6GpNP9ZqY/I3LGf4dXxFgp5ZdKpYfVahV6nhfgUaBfpXg2w7vRYrEYwy5xdOlGAA4DBHyFhDrYEMG+oOdrJ553sVwur6CvNakB/kcuRKwEut0uV6wgCeQRTuM8+06ncwfVhviQqNVq9eVQAnBGRwz+0m63a1IAURQp7Mj6e5CIsuzKWS+4cqgegkcIXpeCiIEwZKp4qlKpzCeTybvJzrgDPHOc8YdeuZIMcLsRYNVsNodZNtiJPmxumSOmnCiZPiJrqDQvOMFqgArzbHh0zB8msen9HwI642+xA4XOPA9MXlYQy9hKAIGrUEmj0RjLiaArJwWJmpUA2N5AxXJiwC8XdC02AmB5CfUpJwb8znT3zCcgmwaSiiOwMt/RlD4DcSDgDK4Kqqob1kEwEUhkswtWsM2yUeGnciBh3FlTErLnB+II9goXErC55MS0EgCm7ANSAC4kOCkhYysBOOL08lG7oRxO4le96wkZoB2PrAQQmPM+BttnKYgtCQSK919BBqZZkDuM+BES7VGOgD6SWtYwMo5jTNIUI/SbXKAFo3QqhwdXkCfszpvJJvM+wPm9M88Lk0BwHmFd3yd6WXbWK5lOKK6Ew0TlzX6Cycv80W33uCvZjlOOaKXLM4EwSWe7l1LWOX5ykvpMYsj9SS6l+0TK5fINEqqqh9a2Y7J5JdBTljErSc44wxE/uspKZ/aF6c8AAAAASUVORK5CYII=" alt="營業時間">
+                      </span>
+                      11:00~22:00
+                    </p>
+                    <p>
+                      <span class="detailIcon">
+                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAJOSURBVHgB7VY7UsMwEJUdDuAbYG4AJ4hzArgBuQFwgMR20kBFcoIkHaWpGCo7HVSEG7ikdDqaJLw3UWY8GUmW3JI3o5Fs7eetvNq1ECf8d3guwkmSBJ1O53a320V4vMQI5VaJsfI8LxsMBgvhAGsCcB75vj/DMsDI4GwFIuvtdluB1LkkdUMyePcA+czGrhWB0WgUkwOcTDFgO6k0JEMQSzBu+TgcDtMm240ExuPxHZxOMNI4jhNhgTRNSYKkH0BiItoSYEQ49i9Gbuu8RmLCk8DnuIKdUifnm4zwODFVrs4J6NxTFzbuTXJNBK4libaY8hR4e3QCZ7oNZj2mYLPZLDX7/DwxbwJzRHXMOP4MMs9if2ULlR3tCUAxxFTpvh/2c0x9RHgn1yqS1K2kLbUf3QaiCqmsMcy9sPYqlO9UqKQtNwKIjM4DDYFS7KvfAaUh0wNpy40Avt+KyrrIsN+ThWnKtVATpW4gbSmhTUKASrxGfdpSGC8xma+Y70din0eFVka3wXKL6BayrLYFq6GxJxjrAK8XphC9wBipCtDpUxfHb+wHjb2gVlIvdE3oGLJG5AjgVVZELfwmY+x+Yn+XZ8ISh+opdY3oNAkURfHb7Xa/YfSx1+ut8zz/MMmzdbP+82aYmpA1AUmipHMsn0FmyWeVHMs3nM/ZurF+sbFtRYBg5FEUeaztIPEOEj9Hzi+x9wbnTy7d0+mfkEBSztkl5RGvas4PSdd3sedM4JgEn9s6b02gRoJFqmrrnLDOgWMgBzLmBJafTXf9hBNM+APntz0xqnnXCgAAAABJRU5ErkJggg==" alt="餐廳地點">
+                      </span>
+                      精選 10 間台北夜貓族最愛咖啡館
+                    </p>
+
+                    <a class="foodTag btn-pimary-style text-white mt-3" href="#">午餐
+                    </a>
+                    <a class="foodTag btn-pimary-style text-white mt-3" href="#">泰式
+                    </a>
+
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+            <hr class="hr-line">
+
+            <!-- 第3家餐廳 -->
+            <div class="col-12 col-sm-6  card-store">
+
+              <div class="row">
+                <div class="col-md-12 col-lg-5 food-card-link px-w " onclick="window.open('topic01.html', '_blank')">
+                  <img src="/Foodie-test/assets/topic_store_3-4d3bd420.jpg" class="img-food scale-hover" alt="...">
+                </div>
+
+                <div class="col-md-12 col-lg-7 px-w">
+                  <div class="card-body">
+                    <div class="card-top d-flex justify-content-between">
+                      <h4 class="restaurant-title">個旅秋冬溫泉季</h4>
+
+                      <span class="collectIcon">
+                        <button type="button" class="collectBgicon" href="#">
+                          <svg version="1.1" id="collectsvgIcon" xmlns="http://www.w3.org/2000/svg"
+                            xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 30 30"
+                            style="enable-background:new 0 0 30 30;" xml:space="preserve">
+                            <circle class="circlest0" cx="15" cy="15" r="15" />
+                            <path class="starst1"
+                              d="M10.7,17.3L9.2,24l5.8-3.5l5.8,3.5l-1.6-6.6l5.2-4.5l-6.8-0.6L15,6l-2.7,6.3l-6.8,0.6L10.7,17.3z" />
+                          </svg>
+                        </button>
+                      </span>
+
+                    </div>
+
+                    <p class="card-text fs-6 fs-md-5">
+                      <span class="detailIcon">
+                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAJJSURBVHgB7VZLUsJAEO3AAcwRcgQ9geEEcgP1BOIOq/hMYMNOPIFwA9i5I+zciScwRwhLF4DvwVCFOMlMgJ28qq6GpNP9ZqY/I3LGf4dXxFgp5ZdKpYfVahV6nhfgUaBfpXg2w7vRYrEYwy5xdOlGAA4DBHyFhDrYEMG+oOdrJ553sVwur6CvNakB/kcuRKwEut0uV6wgCeQRTuM8+06ncwfVhviQqNVq9eVQAnBGRwz+0m63a1IAURQp7Mj6e5CIsuzKWS+4cqgegkcIXpeCiIEwZKp4qlKpzCeTybvJzrgDPHOc8YdeuZIMcLsRYNVsNodZNtiJPmxumSOmnCiZPiJrqDQvOMFqgArzbHh0zB8msen9HwI642+xA4XOPA9MXlYQy9hKAIGrUEmj0RjLiaArJwWJmpUA2N5AxXJiwC8XdC02AmB5CfUpJwb8znT3zCcgmwaSiiOwMt/RlD4DcSDgDK4Kqqob1kEwEUhkswtWsM2yUeGnciBh3FlTErLnB+II9goXErC55MS0EgCm7ANSAC4kOCkhYysBOOL08lG7oRxO4le96wkZoB2PrAQQmPM+BttnKYgtCQSK919BBqZZkDuM+BES7VGOgD6SWtYwMo5jTNIUI/SbXKAFo3QqhwdXkCfszpvJJvM+wPm9M88Lk0BwHmFd3yd6WXbWK5lOKK6Ew0TlzX6Cycv80W33uCvZjlOOaKXLM4EwSWe7l1LWOX5ykvpMYsj9SS6l+0TK5fINEqqqh9a2Y7J5JdBTljErSc44wxE/uspKZ/aF6c8AAAAASUVORK5CYII=" alt="營業時間">
+                      </span>
+                      11:00~22:00
+                    </p>
+                    <p>
+                      <span class="detailIcon">
+                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAJOSURBVHgB7VY7UsMwEJUdDuAbYG4AJ4hzArgBuQFwgMR20kBFcoIkHaWpGCo7HVSEG7ikdDqaJLw3UWY8GUmW3JI3o5Fs7eetvNq1ECf8d3guwkmSBJ1O53a320V4vMQI5VaJsfI8LxsMBgvhAGsCcB75vj/DMsDI4GwFIuvtdluB1LkkdUMyePcA+czGrhWB0WgUkwOcTDFgO6k0JEMQSzBu+TgcDtMm240ExuPxHZxOMNI4jhNhgTRNSYKkH0BiItoSYEQ49i9Gbuu8RmLCk8DnuIKdUifnm4zwODFVrs4J6NxTFzbuTXJNBK4libaY8hR4e3QCZ7oNZj2mYLPZLDX7/DwxbwJzRHXMOP4MMs9if2ULlR3tCUAxxFTpvh/2c0x9RHgn1yqS1K2kLbUf3QaiCqmsMcy9sPYqlO9UqKQtNwKIjM4DDYFS7KvfAaUh0wNpy40Avt+KyrrIsN+ThWnKtVATpW4gbSmhTUKASrxGfdpSGC8xma+Y70din0eFVka3wXKL6BayrLYFq6GxJxjrAK8XphC9wBipCtDpUxfHb+wHjb2gVlIvdE3oGLJG5AjgVVZELfwmY+x+Yn+XZ8ISh+opdY3oNAkURfHb7Xa/YfSx1+ut8zz/MMmzdbP+82aYmpA1AUmipHMsn0FmyWeVHMs3nM/ZurF+sbFtRYBg5FEUeaztIPEOEj9Hzi+x9wbnTy7d0+mfkEBSztkl5RGvas4PSdd3sedM4JgEn9s6b02gRoJFqmrrnLDOgWMgBzLmBJafTXf9hBNM+APntz0xqnnXCgAAAABJRU5ErkJggg==" alt="餐廳地點">
+                      </span>
+                      太平山森見晴懷古步道、鳩之澤溫泉DIY煮蛋趣一日
+                    </p>
+
+                    <a class="foodTag btn-pimary-style text-white mt-3" href="#">人氣聚集地
+                    </a>
+                    <a class="foodTag btn-pimary-style text-white mt-3" href="#">人氣Buffet
+                    </a>
+
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+            <!-- 第4家餐廳 -->
+            <div class="col-12 col-sm-6  card-store">
+
+              <div class="row">
+                <div class="col-md-12 col-lg-5 food-card-link px-w " onclick="window.open('topic01.html', '_blank')">
+                  <img src="/Foodie-test/assets/topic_store_4-d0079cb2.jpg" class="img-food scale-hover" alt="...">
+                </div>
+
+                <div class="col-md-12 col-lg-7 px-w">
+                  <div class="card-body">
+                    <div class="card-top d-flex justify-content-between">
+                      <h4 class="restaurant-title">故宮尋寶及黃金山城九份經典行程一日遊</h4>
+
+                      <span class="collectIcon">
+                        <button type="button" class="collectBgicon" href="#">
+                          <svg version="1.1" id="collectsvgIcon" xmlns="http://www.w3.org/2000/svg"
+                            xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 30 30"
+                            style="enable-background:new 0 0 30 30;" xml:space="preserve">
+                            <circle class="circlest0" cx="15" cy="15" r="15" />
+                            <path class="starst1"
+                              d="M10.7,17.3L9.2,24l5.8-3.5l5.8,3.5l-1.6-6.6l5.2-4.5l-6.8-0.6L15,6l-2.7,6.3l-6.8,0.6L10.7,17.3z" />
+                          </svg>
+                        </button>
+                      </span>
+
+                    </div>
+
+                    <p class="card-text fs-6 fs-md-5">
+                      <span class="detailIcon">
+                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAJJSURBVHgB7VZLUsJAEO3AAcwRcgQ9geEEcgP1BOIOq/hMYMNOPIFwA9i5I+zciScwRwhLF4DvwVCFOMlMgJ28qq6GpNP9ZqY/I3LGf4dXxFgp5ZdKpYfVahV6nhfgUaBfpXg2w7vRYrEYwy5xdOlGAA4DBHyFhDrYEMG+oOdrJ553sVwur6CvNakB/kcuRKwEut0uV6wgCeQRTuM8+06ncwfVhviQqNVq9eVQAnBGRwz+0m63a1IAURQp7Mj6e5CIsuzKWS+4cqgegkcIXpeCiIEwZKp4qlKpzCeTybvJzrgDPHOc8YdeuZIMcLsRYNVsNodZNtiJPmxumSOmnCiZPiJrqDQvOMFqgArzbHh0zB8msen9HwI642+xA4XOPA9MXlYQy9hKAIGrUEmj0RjLiaArJwWJmpUA2N5AxXJiwC8XdC02AmB5CfUpJwb8znT3zCcgmwaSiiOwMt/RlD4DcSDgDK4Kqqob1kEwEUhkswtWsM2yUeGnciBh3FlTErLnB+II9goXErC55MS0EgCm7ANSAC4kOCkhYysBOOL08lG7oRxO4le96wkZoB2PrAQQmPM+BttnKYgtCQSK919BBqZZkDuM+BES7VGOgD6SWtYwMo5jTNIUI/SbXKAFo3QqhwdXkCfszpvJJvM+wPm9M88Lk0BwHmFd3yd6WXbWK5lOKK6Ew0TlzX6Cycv80W33uCvZjlOOaKXLM4EwSWe7l1LWOX5ykvpMYsj9SS6l+0TK5fINEqqqh9a2Y7J5JdBTljErSc44wxE/uspKZ/aF6c8AAAAASUVORK5CYII=" alt="營業時間">
+                      </span>
+                      11:00~22:00
+                    </p>
+                    <p>
+                      <span class="detailIcon">
+                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAJOSURBVHgB7VY7UsMwEJUdDuAbYG4AJ4hzArgBuQFwgMR20kBFcoIkHaWpGCo7HVSEG7ikdDqaJLw3UWY8GUmW3JI3o5Fs7eetvNq1ECf8d3guwkmSBJ1O53a320V4vMQI5VaJsfI8LxsMBgvhAGsCcB75vj/DMsDI4GwFIuvtdluB1LkkdUMyePcA+czGrhWB0WgUkwOcTDFgO6k0JEMQSzBu+TgcDtMm240ExuPxHZxOMNI4jhNhgTRNSYKkH0BiItoSYEQ49i9Gbuu8RmLCk8DnuIKdUifnm4zwODFVrs4J6NxTFzbuTXJNBK4libaY8hR4e3QCZ7oNZj2mYLPZLDX7/DwxbwJzRHXMOP4MMs9if2ULlR3tCUAxxFTpvh/2c0x9RHgn1yqS1K2kLbUf3QaiCqmsMcy9sPYqlO9UqKQtNwKIjM4DDYFS7KvfAaUh0wNpy40Avt+KyrrIsN+ThWnKtVATpW4gbSmhTUKASrxGfdpSGC8xma+Y70din0eFVka3wXKL6BayrLYFq6GxJxjrAK8XphC9wBipCtDpUxfHb+wHjb2gVlIvdE3oGLJG5AjgVVZELfwmY+x+Yn+XZ8ISh+opdY3oNAkURfHb7Xa/YfSx1+ut8zz/MMmzdbP+82aYmpA1AUmipHMsn0FmyWeVHMs3nM/ZurF+sbFtRYBg5FEUeaztIPEOEj9Hzi+x9wbnTy7d0+mfkEBSztkl5RGvas4PSdd3sedM4JgEn9s6b02gRoJFqmrrnLDOgWMgBzLmBJafTXf9hBNM+APntz0xqnnXCgAAAABJRU5ErkJggg==" alt="餐廳地點">
+                      </span>
+                      精選4個旅程必去美食打卡地
+                    </p>
+                    <a class="foodTag btn-pimary-style text-white mt-3" href="#">日式涮涮鍋
+                    </a>
+
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+
+            <!-- 頁籤 -->
+            <nav aria-label="Page navigation example ">
+              <ul class="pagination justify-content-center align-items-center pt-4">
+                <li class="page-item">
+                  <a class="page-link" href="#" aria-label="Previous">
+                    <span aria-hidden="true">&laquo;</span>
+                  </a>
+                </li>
+                <li class="page-item"><a class="page-link" href="#">1</a></li>
+                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                <li class="page-item">
+                  <a class="page-link" href="#" aria-label="Next">
+                    <span aria-hidden="true">&raquo;</span>
+                  </a>
+                </li>
+              </ul>
+            </nav>
+            <!-- 頁籤end -->
+
+          </div>
+          <!-- 餐廳card end-->
+
+        </div>
+        <!-- 右側result end-->
+
+
+
+      </div>
+      <!-- 最外row end -->
+    </div>
+    <!-- popular-store-block end -->
+
+
+    <footer class="footer">
+    <div class="container">
+        <div class="footer-content">
+            <div class="footer-top">
+                <a class="footer-top-logo" href="#"><img src="data:image/png;base64,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" alt=""></a>
+                <ul class="footer-top-social">
+                    <li><a href="#"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADgAAAA4CAYAAACohjseAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAgcSURBVHgBzVpdbBRVFD53Ztt0eWgLJdpKiUtJMLEklqhRUEOJgr6obKLEN9Bg9I1KNdEn6IsaFShvGlHgkUIsP4kBxFAiFhMwLIaqkADF8tMYfhYku9rdmfF8d5nt7DA/d7ZT4Eu2uzudO3e/Oed859xzR1DM6O9qbKREXYdOooMs8ZilWR2CqJFIpCrPtIbJomESlOX3QwZZmfQXowMUMwTFAElKT3bqglaRYGKSUFXIMvEBw7B2pdePbqEYMCGCIKYl6lYJoXVR9aQ8YbGFBYkBo2D2pHtHh6lKVEVwMol5wbLMtWaRtlZDNDLB/u4HlupaYjPdBWJOwKKmYfVEdV1lgtJqtck1whJddA9hCavXHMuz22azKucrEezvak5pNaJfkBSQew5pzYK1SMVlQwmCnF4jDt4p8/cWqiQDCd6v5GyokPQlWC25KVNbK74np84MPL+Qv0nFf2+Uv+euX6AoCCPpSRCCotckj4eRS9TV08wnllFT23xqmNHO5ILJqAKkr5wZpNGhvXT17BHKh5BmkhmzkF/kJTwJrwFQS5arFAWg7dmVNGdxN9Uk6ylu4Jotc1+Sr9y1ERo51kenD6z3PR/iJ38zZd+7838u7F7dvIJ0bbPfxWC1J5d/Q9NnL6C7idGTe+l433vszjd9zzHMYjq97u+dzmMVBFXi7snl31Jz+4sVx+BGcKfc9RHKX7vALnaDqkFyWsnFGx5q5zlekq7vxJUzR+jIV6/5ji/FY36e01UrXFRL0PIgco8sXl1B7ualITq5Zw1d5YnjgC0wuN7ZnzbJmF7w7g4WqpJwTZ89n2Y9s5LO/bzJczy7akpLTOFCJLt2/NhtlKynnfObHGq44J0dNGVaabI8W+vQhiVUCHCZOIB4xLz1bFUAAnTgk6eCXDVrFHKzbCtq9lEtIdYGzCPdxSYHDH752qSQg3g9/9EvNP+d7dJyIAQvsQHCUO4ANJasWEKZoBC0MGhUy9xx10QsRM1XKoD7t7/SI10TItaxrFceh8sizm1Md8WmG8xllVyj0m2CUjlJpIIGTW8bV00IShRAeetb2qmV7/yDTKLJ5we682itIwVBRW3Uz2inEPACvLZTzi2/atrSsBEJx2QQFxWAyBwWpoaH5nrmS+S3Uz+sKyfy0aF9LGTd5bkun9xXPhcKbUOloNA1fRW/7SwRFGIhRNYP1VQo7S/3UNtzKwPPQSzhdWr/OpnIQeJQ7xJq5nC4wTfRqc7ukEBJGBwmogNumuh/v7mTyUVavOYdd9MLHcs2eAoBlA/u6sYjS7pZwGZShhM5SCJF3DE2H1nQZPMroZPeEWS9qECudJIDKfzgkWPbynccHgFBaXvu7XKOwxgo5pBDMScKdPZYZKzOsBMTivUmciXqUxulXLlYxpnTnaSVDm+SqcZZSMOlm0IUMhKEeAwEG8LOUy2oYT0bIAcCQXGSu32O0/2cNygISQVdYL+EBcUsiglO14RbquTKkjW/Ln9HHeoVp9UADWeN/z5MMaBpdqVrRcmVI8e2lz/DW+JaVzJSGsWEGtddj1LpwIpON62f8SjFhdgIJpLjoVyILukVQlZFSvBFbASd1U3JzVqVx7oFoxArQYvOUwzIu9ys9fFlymNbPBbQMWFYswRdpxiAu37j8rgVnUk8CLDerGffLn9HfRofxHm2oHUi7DS0IVSAhG7DXqgGkXQvooHTjmsEQcWNedMmqwnSMhQTZKvh8HgdifoSBNBmcBJFfM55YTUt7NpfQe7U/vXK6uvspfqB8+BAwiAjo8enNTS0ew2njAZO+q/L7yA599Ue+QJw572XTtt5RaFmPVUI0jMaFevYgkJpp8ZGoi64usv0dbGrefcxvcih6sGYICSnqavybWRf/uLCgJbuHWZyZqCb5lzLoykKkyEef/zkaV/RwCoDajnIbcBqVhBhrmxZ1iG8lxa8ZmIjaUZn2AXt3JZULKVwY7DGwwulHKwH6//DORMd6yhNq4aW8TaFisCYQpMNYEnQMPQBXTOzQQvfm5dOlgmiKXvu8CaKgon2TpsdTa+rvG8RBE59w+nPLm7BZ6kucFM26UZS/IFowMa6bgsBPKbJ2fT6PbiQFxYN2J/L8mkWa3uDxGbk176KSgXtvbiWNUHAHEg1NlAxhXmDoZs99ucywTArwu+diRzrNuSx5NTI6qYMeIm7EPjr6PZAgWH37El/Or5X6Np8SfG+YOFcUCxir+DOTZFB2fKzC+6wppQfIEBIB3bPxr2DhTmObn3Ldzxiz9TMRb4Egf7ulqW6Jvr9LgIlRMfZvcM02UBKObrlrUDlNUi8mf784hbnMd190rYjt/5845n6qcz8aa+LmMX/6NKJXdjJkVXKZGyAOoF8+cf3H9Nv330o5/YDb51tXPr5pU/dx322sFONWs3YQf5n4GMjcCXkN6QNKGtcooMYg7tfPTtII0f7QvOldM2x3DyvLWz/hxA+5O00UzvItyZFEeBc6NbwKj+s5Zi/VhmvkR9C8Ig7J4IfI6mS5N1CGDkg/EGg+5SkCjkgdJ2ECxh8Ib4Vw3SfgBu6GRVygNJCUJIcq51nkdhI9xhQS7OQUyIHRH6ccvcHM1Zwsbfm7rusyBqm+WZ63eWdkUZRFUBcaqa2gova+LaCfCGylmCrjeV6VR+hrBhNE4AkWhRrhcYbqLFbdGLEylehmCBdlyzeCpe7xVU+DSxXMyfINHsNIz8wEWLlK9IkYM/7rZ0sBh0cq508BZO1UnzYvclznrU+C0UU8iUyxeKtTByknPgffT2wF1WhaJUAAAAASUVORK5CYII=" alt=""></a></li>
+                    <li><a href="#"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADgAAAA4CAYAAACohjseAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAATkSURBVHgB3Zo9bBtlGMf/z3t2iINUEoKQKaGYVgKhDHWFGNqlzlDBQogHutKNMe5HJCbibJVIgrNXIqwIyWk6UNEBI5BYkHClBgmG4tLSREgQJ4BT2b57ed5zbM7JOT7f+ZyLf1Jytu8uzk/P8z7v1xG6TDY1PIzQYFwDxSHptBQyTsAwQLHmK2UBEgUQinz8RofMJ+c3cugyhC5gSmmRhEaYBrGYKeSKIovndF3eTC5uLKMLeBJUYiI0OE0kUnAvZYvkCBMop1eMuWRmowCXuBL0U8wOKY20UcVnbkQ7FsxefX5KE9on+9uUv6iIGrqc6zR1HQuaURuIzJKkFA4RSTJjlHc4bYtFJ9c7EsymojERpizBLCCHjhnNipxwkrJtBZWcFqave52S7XAqeaBgUOXqOJFsKRh0uTrtJG0FVUHRwpEfgy5XhyXzRmVnwq7whOxuUNWSy1UMPjF68iyi429h9NRZDI2cQDhyrOl8afMhSn89RGVnG79+dwN/3v/+wL+nip/5P6N4ef+5PaxeiV6CJj6FD0RGXkL84iKeO3XO8T0/31nAL3cWHV2rG9VkcuGPFetnwvpGtTtoNAsfOHZ8HOdTX3Uk1ymCByDmuNj6WdObEN73o92pyJ374It9qdhtOFVjIjTUNBBpCKro8dgyDR/ohVwd4hmNNYoNQRGiNHxg7I2LGHp2DD1k2BrFhiCbn4cPnHjzPfQaaxTNbsKsnKAYfGD0pLOissNdw/q929ha/6np878fr8EFPAEfSPBxpdYPCjEFH1D9nBPuf3sDa7e6W7x5SjfNh5VaihL5kp7hwfaFRUWu23I1KG5O8bLXogke7PgyKw9Fnml7zW8/fA6fMBe/hAbtUOd4aljmF2plj1NUJtCvEJ1Wgu3z6IgiARVBegV9ilpwFvz7ZfQvMYE+h1Znjkt44NULV/Dahavwiy8/eh3VJ9twS6AjqGb0XuQUgkvNAwSULXfjUCsFIQmbCCjbj+/BG/SAIyjvIqCUNh/BC7xpUxQEkUdA2faYotwP5oQOPbCCqsh4gaDlBaqDLEiOdmp6zfa6pwgW35l/lDPXRVdnXlBL9Am4QM35Wi0oRcffxvjk3IH3r63OYmPttu05L21QSnnz3fn1qdqM3ggtQegJuKDC/VSlRV9VdtCHlZ9seS4mdhgkzAVgs6PXdS0X1DR1A3d9heTHvy+r16ZgMlMockiX0CeQRK7+ujFUM6oDmX6Joq4ZjYbfEOyXKHJ6ziWv/79X2DTYNqPI+Ysjimp7hjCWrZ81Caoo6rq8jCOKIakpeop906XkwvqKBB25VOVd3qV65bRiOx80KuE0z4IDO4Tbi5malZ203TlbQZWqhmYkj0J73G13E60eDGo5o1e5rPONQZZsyF1v/RjJgUsWQZZ0IqdouyYTRElVH5zIKRwtOpmS5YEzQaiuqloalZIjOUUIDlGFhw+p1ZkX8zzYm+VviqGHmCnJfbTqxjq5r+Nlw0nua1TKqiERegIV1XcZ5dKZTuUUjiNoZTc90tkPo8uiSmkSvIHa9YgqMU7H8r8Zp8+G2uFKsM6u6CX1mlOXj5K3wtVusdsNVXM2cxeGkdH1Us6LWB1PglYma8Mk9YNb18YSXAziTz09kkDtme4Y/+zd5FELzkUS4Tw3sDyB8tXqP/luSFn5D8ZQES045J1TAAAAAElFTkSuQmCC" alt=""></a></li>
+                    <li><a href="#"><img src="data:image/png;base64,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" alt=""></a></li>
+                </ul>
+            </div>
+            <div  class="footer-bottom">
+                <ul class="footer-bottom-copyright text-white">
+                    <li>Copyright © FoodieInspiration All Rights Reserved.</li>
+                    <li>作品僅為作業練習,無商業使用,若有侵權請來信告知</li>
+                    <li>FoodieInspiration@gmail.com,我們將立即移除</li>
+                </ul>
+                <ul class="footer-bottom-menu">
+                    <li><a class="text-white" href="#">常見問題</a></li>
+                    <li><a class="text-white" href="#">關於我們</a></li>
+                    <li><a class="text-white" href="#">隱私權政策</a></li>
+                    <li><a class="text-white" href="#">使用者條款</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+      <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+      
+      <!-- <script type="module" src="../js/jquery-2.2.3.min.js"></script> -->
+</body>
+
+</html>
