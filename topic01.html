@@ -1,17 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet"
-    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-    <title>contact</title>
-    <script type="module" crossorigin src="/Foodie-test/assets/main-c015f238.js"></script>
-    <link rel="stylesheet" href="/Foodie-test/assets/main-4c1a1a13.css">
-  </head>
-  <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>主題分享結果頁</title>
+  <script type="module" crossorigin src="/Foodie-test/assets/main-c015f238.js"></script>
+  <link rel="stylesheet" href="/Foodie-test/assets/main-4c1a1a13.css">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
     <div class="container container-fluid">
         <a class="navbar-brand" href="index.html"><img src="data:image/png;base64,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" alt=""></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
@@ -46,12 +46,280 @@
             </div>
         </div>
     </div>
-</nav>    <div class="contact-banner">
-      <div class="container">
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus quo, in nesciunt ipsa laborum cupiditate vero, voluptatibus enim sit blanditiis sequi velit ex, veniam dicta corporis. Adipisci laborum ad deserunt.</p>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus quo, in nesciunt ipsa laborum cupiditate vero, voluptatibus enim sit blanditiis sequi velit ex, veniam dicta corporis. Adipisci laborum ad deserunt.</p><p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus quo, in nesciunt ipsa laborum cupiditate vero, voluptatibus enim sit blanditiis sequi velit ex, veniam dicta corporis. Adipisci laborum ad deserunt.</p><p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus quo, in nesciunt ipsa laborum cupiditate vero, voluptatibus enim sit blanditiis sequi velit ex, veniam dicta corporis. Adipisci laborum ad deserunt.</p>
+</nav>
+    <div class="image-banner container-fluid">
+
+      <div class="imageBannerTitle text-white">
+        <h1 class="">主題分享</h1>
       </div>
     </div>
+
+    <div class="bg-gray-space  container-fluid">
+
+      <div class="">
+
+        <div class="mainArea mx-auto text-center pt-4 pb-4 container blank-space">
+
+          <div class="row breadcrumb-section">
+
+            <div class="col-12 col-md-6">
+              <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                  <li class="breadcrumb-item"><a href="#">首頁</a></li>
+                  <li class="breadcrumb-item"><a href="#">主題分享</a></li>
+                  <li class="breadcrumb-item active" aria-current="page">台南 4 家超人氣老屋、美式、日式早午餐推薦</li>
+                </ol>
+              </nav>
+            </div>
+            <div class="col-12 col-md-6">
+              <div class="next-page">
+                <span class="pe-3"><a href="#">上一頁</a></span>
+                <span class=""><a href="#">下一頁</a></span>
+              </div>
+            </div>
+
+
+          </div>
+
+          <div class="titleMainArea row ">
+
+            <div class="topic-title-area col-12 col-md-10">
+              <h1 class="text-center my-2 pb-3">台南 4 家超人氣老屋、美式、日式早午餐推薦</h1>
+              <div class="titleTag">
+                <a class="foodTag btn-pimary-style text-white" href="#">約會搭配景點
+                </a>
+                <a class="foodTag btn-pimary-style text-white" href="#">慶生
+                </a>
+                <a class="foodTag btn-pimary-style text-white" href="#">家庭聚餐
+                </a>
+                <a class="foodTag btn-pimary-style text-white" href="#">商務聚餐
+                </a>
+              </div>
+            </div>
+
+            <div class="titleSection col-12 col-md-2">
+
+              <div class="row text-end">
+
+                <div class="socialIconTop my-2 pb-3">
+                  <span class="pe-3">
+                    <a href="#">
+                      <img src="../assets/images/likeIcon.svg" alt="">
+                    </a>
+                  </span>
+                  <span class=""><a href="#"><img src="../assets/images/shareIcon.svg" alt="">
+                    </a>
+                  </span>
+                </div>
+
+                <div class="timeRelease">
+                  發佈時間:2023/11/13
+                </div>
+
+              </div>
+
+            </div>
+
+          </div>
+
+          <div class="row title-info">
+
+
+            <nav id="navbar-example2" class="navbar stickyBarTag fixed-top">
+
+              <ul class="nav nav-pills">
+                <li class="nav-item">
+                  <a class="nav-link" href="#scrollspyHeading1">小北家灶咖</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#scrollspyHeading2">日日享食</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#scrollspyHeading3">樂禾田</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#scrollspyHeading4">鹿耳晚晚</a>
+                </li>
+
+              </ul>
+
+            </nav>
+            <div class="hr-style"><hr></div>
+            
+
+            <p class="mb-3 col-12 titleInfo">
+              說到台南，除了琳瑯滿目的在地小吃，更是有許多美味又盛的台南早午餐，每一家都有其獨特的風格，無論是文青老屋風、美式或日式都有！今天小編要推薦4家超人氣台南早午餐，快來筆記筆記！台南許多熱門的早午餐店都隱身在巷弄內，且都是由老宅改造，一家比一家厲害，實在是竸爭激烈呀～如果在台南停留的天數有限，不妨參考小推薦的這
+              4 家，現在就把這篇加入囗袋名單，下次不用再選擇障礙啦!
+            </p>
+
+
+
+            <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" class="scrollspy-example"
+              tabindex="0">
+
+              <!-- 第一區塊 -->
+              <div class="" id="scrollspyHeading1">
+
+                <div class="container-fluid infoblock p-0">
+                  <div class="row">
+
+
+                    <div class="col-md-6 p-0">
+                      <div class="store">
+                        <img class="p-0" src="/Foodie-test/assets/share_1-82b02edd.jpg" alt="">
+                      </div>
+                    </div>
+
+
+                    <div class="col-md-6 ">
+                      <div class="storeInfo">
+                        <h4>
+                          小北家灶咖
+                        </h4>
+
+                      </div>
+                    </div>
+
+
+                    <div class="col-12 contentInfo text-start">
+                      <p>
+                        就算以小吃為重，不吃早午餐的旅人，也很難沒聽過小北家灶咖！營業期只要經過就是在排隊，如此超高人氣必定有它獨有的魅力！小北家灶咖為老宅改建
+                        (推薦給你：台南便宜青旅大公開)，店內圍繞綠色樐栽,環境悠閒放鬆；餐點的部分會由店員細細解說，每一口都能吃到店家堅持選用好食材的用心與溫度，愜意的早晨坐在悠閒的老宅裡享用美味的早午餐，別有一番風味啊~
+                      </p>
+                    </div>
+
+
+                  </div>
+                </div>
+
+              </div>
+
+
+
+
+
+              <!-- 第二區塊 -->
+              <div class="" id="scrollspyHeading2">
+
+                <div class="container-fluid infoblock p-0">
+                  <div class="row">
+                    <div class="col-md-6 ">
+                      <div class="storeInfo">
+                        <h4>
+                          日日享食
+                        </h4>
+
+                      </div>
+                    </div>
+
+
+                    <div class="col-md-6 p-0">
+                      <div class="store">
+                        <img class="p-0" src="/Foodie-test/assets/share_2-51bd7ff8.jpg" alt="">
+                      </div>
+                    </div>
+
+                    <div class="col-12 contentInfo text-start">
+                      <p>
+                        就算以小吃為重，不吃早午餐的旅人，也很難沒聽過小北家灶咖！營業期只要經過就是在排隊，如此超高人氣必定有它獨有的魅力！小北家灶咖為老宅改建
+                        (推薦給你：台南便宜青旅大公開)，店內圍繞綠色樐栽,環境悠閒放鬆；餐點的部分會由店員細細解說，每一口都能吃到店家堅持選用好食材的用心與溫度，愜意的早晨坐在悠閒的老宅裡享用美味的早午餐，別有一番風味啊~
+                      </p>
+                    </div>
+
+                  </div>
+                </div>
+
+              </div>
+
+
+              <!-- 第三區塊 -->
+              <div class="" id="scrollspyHeading3">
+
+                <div class="container-fluid infoblock p-0">
+                  <div class="row">
+
+
+                    <div class="col-md-6 p-0">
+                      <div class="store">
+                        <img class="p-0" src="/Foodie-test/assets/share_3-1412f095.jpg" alt="">
+                      </div>
+                    </div>
+
+
+                    <div class="col-md-6 ">
+                      <div class="storeInfo">
+                        <h4>
+                          樂禾田
+                        </h4>
+
+                      </div>
+                    </div>
+
+
+                    <div class="col-12 contentInfo text-start">
+                      <p>
+                        就算以小吃為重，不吃早午餐的旅人，也很難沒聽過小北家灶咖！營業期只要經過就是在排隊，如此超高人氣必定有它獨有的魅力！小北家灶咖為老宅改建
+                        (推薦給你：台南便宜青旅大公開)，店內圍繞綠色樐栽,環境悠閒放鬆；餐點的部分會由店員細細解說，每一口都能吃到店家堅持選用好食材的用心與溫度，愜意的早晨坐在悠閒的老宅裡享用美味的早午餐，別有一番風味啊~
+                      </p>
+                    </div>
+
+
+                  </div>
+                </div>
+
+              </div>
+
+         
+
+
+
+              <!-- 第四區塊 -->
+              <div id="scrollspyHeading4" class="" id="scrollspyHeading2">
+
+                <div class="container-fluid infoblock p-0">
+                  <div class="row">
+                    <div class="col-md-6 ">
+                      <div class="storeInfo">
+                        <h4>
+                          鹿耳晚晚
+                        </h4>
+
+                      </div>
+                    </div>
+
+
+                    <div class="col-md-6 p-0">
+                      <div class="store">
+                        <img class="p-0" src="/Foodie-test/assets/share_4-9b6a71c2.jpg" alt="">
+                      </div>
+                    </div>
+
+                    <div class="col-12 contentInfo text-start">
+                      <p>
+                        就算以小吃為重，不吃早午餐的旅人，也很難沒聽過小北家灶咖！營業期只要經過就是在排隊，如此超高人氣必定有它獨有的魅力！小北家灶咖為老宅改建
+                        (推薦給你：台南便宜青旅大公開)，店內圍繞綠色樐栽,環境悠閒放鬆；餐點的部分會由店員細細解說，每一口都能吃到店家堅持選用好食材的用心與溫度，愜意的早晨坐在悠閒的老宅裡享用美味的早午餐，別有一番風味啊~
+                      </p>
+                    </div>
+
+                  </div>
+                </div>
+
+              </div>
+
+            </div>
+
+          </div>
+
+
+        </div>
+
+
+      </div>
+
+    </div>
+
+
+
 
     <footer class="footer">
     <div class="container">
@@ -80,6 +348,7 @@
         </div>
     </div>
 </footer>
-    
-  </body>
+      
+</body>
+
 </html>
