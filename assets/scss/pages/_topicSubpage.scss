@@ -12,6 +12,7 @@
         padding-top: calc(120px + 90px);
         padding-bottom: 120px;
 
+        // 主題字
         h1 {
             font-size: 56px;
             color: #333333;
@@ -23,11 +24,10 @@
     }
 }
 
+
 // 使用mixin mobile-sm:480px mobile:576px mobile-lg:768px pad:992px
 @include pad {
     .image-banner {
-        background-image: url(../images/popular_banner_mb.jpg);
-
         .imageBannerTitle {
             text-align: center;
 
@@ -54,16 +54,53 @@
         }
     }
 
+}
+
+// 大號主btn
+.btn-topic-pimary-style {
+    background-color: #F08929;
+    font-size: 20px;
+    font-weight: 400;
+    padding: 6px 12px;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+@include pad {
+    .btn-topic-pimary-style {
+        padding-bottom: 6px;
+    }
 
 }
 
+.btn-topic-pimary-style:hover {
+    background-color: $secondary;
+    color: #ffffff;
+    transition: all 0.15s;
+}
+
+@include pad {
+    .btn-topic-pimary-style {
+        font-size: 16px;
+        padding: 4px 12px;
+        margin-left: 1px;
+        margin-right: 1px;
+        margin-bottom: 6px;
+    }
+}
 
 // topicSubpage內容區＿開始
 .bg-gray-space {
     background-color: #F9F9F9;
     padding-top: 40px;
     padding-bottom: 40px;
+}
 
+@include pad {
+    .bg-gray-space {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
 }
 
 .blank-space {
@@ -76,28 +113,114 @@
     margin-right: 40px;
 }
 
+@include pad {
+    .breadcrumb-section {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+}
+
+.breadcrumb {
+    margin-bottom: var(--bs-breadcrumb-margin-bottom);
+}
+
+@include pad {
+    .breadcrumb {
+        margin-bottom: 0px;
+    }
+
+}
+
 .next-page {
     text-align: right;
     color: #F08929;
 }
 
+.nextPage-lg {
+    display: flex;
+    justify-content: end;
+}
+
+@include mobile-sm {
+    .nextPage-lg {
+        padding: 24px 0px;
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
 .titleMainArea {
     background-color: #F9F9F9;
-    padding: 48px 48px 35px 48px;
+    padding: 48px 48px 60px 48px;
     margin-left: 40px;
     margin-right: 40px;
     margin-bottom: 40px;
 }
 
-// 主題文字區
-.topic-title-area {
-    text-align-last: left;
+@include pad {
+    .titleMainArea {
+        padding: 3px;
+        margin-left: 14px;
+        margin-right: 14px;
+        margin-bottom: 30px;
+    }
 }
 
+// 發佈時間
+.timeRelease {
+    font-weight: 400;
+    font-size: 18px;
+}
+
+// 文字區大標
+.topic-title-area {
+    text-align-last: left;
+
+
+    h1 {
+        font-size: 40px;
+        font-weight: 700;
+        line-height: 1.4;
+    }
+
+}
+
+@include pad {
+    .topic-title-area {
+        h1 {
+            font-size: 28px;
+        }
+    }
+}
+
+// 分享icon&時間資訊
+.subInfoShare {
+    flex-direction: column;
+    align-items: end;
+    // height: 180px;
+    height: 100%;
+    text-align: right;
+}
+
+@include pad {
+    .subInfoShare {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        // height: 180px;
+        height: 100%;
+        text-align: center;
+    }
+}
+
+.socialIconTop{
+
+}
 
 //stickyBarTag_未完 
 nav.stickyBarTag {
-    height: 49px;
+    height: 42px;
 
     .nav-pills {
         padding-left: 52px;
@@ -108,6 +231,7 @@ nav.stickyBarTag {
     background-color: rgb(255 255 255 / 91%);
 }
 
+
 .nav-link:hover,
 .nav-link:focus {
     display: inline-block;
@@ -115,33 +239,44 @@ nav.stickyBarTag {
 
 .nav-pills {
     // --bs-nav-pills-border-radius: var(--bs-border-radius);
-    --bs-nav-pills-link-active-color: #383838;
+    --bs-nav-pills-link-active-color: #F08929;
     --bs-nav-pills-link-active-bg: #ffffff00;
 }
 
 .nav-pills .nav-link.active,
 .nav-pills .show>.nav-link {
-    border-bottom: 2px solid #c87800;
+    font-size: 20px;
+    font-weight: 700;
+    border-bottom: 2px solid #F08929;
     transition: all 0.15s;
-    padding-bottom: 7.5px;
+    padding-bottom: 3.5px;
     // color: var(--bs-nav-pills-link-active-color);
     // background-color: var(--bs-nav-pills-link-active-bg);
 }
 
 .nav-link {
     color: #646464;
-    font-weight: bolder;
+    font-size: 20px;
+    font-weight: 700;
+    // font-weight: bolder;
 }
 
 .nav-pills .nav-link {
     border-radius: 0;
 }
 
+// 主題sticky bar樣式設定
+.nav-link-topic:hover,
+.nav-link:focus {
+    color: #F08929;
+    border-bottom: 2px solid #F08929;
+    padding-bottom: 3px;
+}
+
 
 .stickyBarTag.fixed-top {
     position: sticky;
-    top: 100px;
-
+    top: 90px;
 }
 
 .hr-style {
@@ -153,11 +288,21 @@ nav.stickyBarTag {
 
 // 下方topicSubpage圖文內容區＿開始
 
+// 本頁主題文字介紹
 .titleInfo {
+    text-align: left;
     padding-left: 48px;
     padding-right: 48px;
     padding-bottom: 120px;
     padding-top: 40px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+@include pad {
+    .titleInfo {
+        padding-bottom: 56px;
+    }
 }
 
 .container-fluid.infoblock .store {
@@ -167,15 +312,32 @@ nav.stickyBarTag {
 .storeInfo {
     margin: 40px;
     text-align: left;
+
+    h4 {
+        padding-bottom: 16px;
+        font-weight: 700;
+    }
 }
 
+
+// 內容文章
 .contentInfo p {
     padding-left: 48px;
     padding-right: 48px;
     padding-bottom: 120px;
     padding-top: 40px;
+    font-size: 20px;
 }
 
+@include pad {
+    .contentInfo p {
+        padding-left: 14px;
+        padding-right: 14px;
+        padding-top: 0px;
+        padding-bottom: 56px;
+
+    }
+}
 
 .restaurant-title {
     font-size: 24px;
@@ -184,4 +346,130 @@ nav.stickyBarTag {
 }
 
 
-// 下方內容區
+// 下方內容區_圖文資訊//
+
+// tag標籤樣式
+.recommandTagFrame {
+    color: #B2751A;
+    border: #c87800 1px solid;
+    background-color: #FFF8ED;
+    border-radius: 6px;
+    text-align: center;
+    padding: 3px 1px;
+    margin-right: 8px;
+    line-height: 1.2;
+}
+
+// tag標籤文字樣式
+.recommandTag {
+    padding: 0px;
+    font-family: Noto Sans;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.4;
+    text-align: center;
+    display: inline-block;
+    width: 48px;
+    height: auto;
+}
+
+// 標籤加文字
+.tagFrame {
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+
+}
+
+.highlight p {
+    color: #F08929;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+@include pad {
+    .highlight p {
+        font-size: 16px;
+    }
+}
+
+// 更多資訊按鈕
+// more img.detailIcon:hover{
+.more a:hover {
+    transform: translate(0.1rem, 0rem);
+    transition: all 0.3s;
+}
+
+.more {
+    font-size: 16px;
+    border: #F08929 1px solid;
+    border-radius: 4px;
+    color: #F08929;
+    background-color: #fff;
+    padding: 8px 16px;
+    display: inline-block;
+    margin-top: 24px;
+}
+
+.more-main:hover {
+    border: #ffffff 1px solid;
+    color: white;
+    background-color: #797979;
+}
+
+.more-main {
+    border: #ffffff 1px solid;
+    border-radius: 4px;
+    color: white;
+    background-color: #F08929;
+    padding: 8px 16px;
+    display: inline-block;
+    margin-top: 24px;
+    margin-top: 40px;
+    margin-bottom: 120px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.store img {
+    width: 100%;
+}
+
+// 猜你喜歡 
+.m-space {
+    margin-top: 12px;
+    margin-bottom: 40px;
+    padding: 24px;
+}
+
+.guessMainTitle h3 {
+    padding-left: 24px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    font-size: 32px;
+    font-weight: 700;
+    text-align: left;
+}
+
+.guessTitle {
+    padding-top: 24px;
+
+    h4 {
+        font-size: 28px;
+        font-weight: 700;
+        text-align: left;
+        padding-bottom: 16px;
+    }
+
+    p {
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 30px;
+        text-align: left;
+    }
+
+}
+
+.guesslink {
+    cursor: pointer;
+}
